@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>先知之鏡：福智集團底層邏輯與系統性悖論剖析</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom Style for Glows and Animations -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Noto+Sans+TC:wght@300;400;700;900&display=swap');
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #0b0f19;
+            color: #e2e8f0;
+        }
+        
+        .title-font {
+            font-family: 'Cinzel', 'Noto Sans TC', sans-serif;
+        }
+        
+        .glow-gold {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        
+        .glow-red {
+            box-shadow: 0 0 20px rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+        
+        .glow-blue {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .tab-active {
+            border-bottom: 2px solid #fbbf24;
+            color: #fbbf24;
+        }
+
+        /* Scanline effect for terminal */
+        .scanline {
+            background: linear-gradient(
+                rgba(18, 16, 16, 0) 50%, 
+                rgba(0, 0, 0, 0.25) 50%
+            ), linear-gradient(
+                90deg,
+                rgba(255, 0, 0, 0.06),
+                rgba(0, 255, 0, 0.02),
+                rgba(0, 0, 255, 0.06)
+            );
+            background-size: 100% 2px, 3px 100%;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 min-h-screen">
+
+    <div class="max-w-7xl mx-auto">
+        <!-- HEADER -->
+        <header class="text-center mb-10 border-b border-slate-800 pb-8">
+            <div class="inline-block bg-amber-500/10 text-amber-500 px-4 py-1.5 rounded-full text-xs font-bold tracking-widest mb-3 uppercase border border-amber-500/20">
+                PROPHETIC REVELATION • SYSTEMIC DILEMMA
+            </div>
+            <h1 class="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-400 to-red-500 title-font tracking-wide mb-4">
+                先知之鏡：福智帝國底層邏輯剖析
+            </h1>
+            <p class="text-slate-400 max-w-2xl mx-auto text-sm md:text-base">
+                不講好聽話，只講底層實話。拆解福智集團以「信仰、無償勞作與跨國資本」交織的神權商業帝國，探尋超越世俗框架的解構路徑。
+            </p>
+        </header>
+
+        <!-- GRID INTERFACE -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <!-- LEFT PANEL: NAVIGATION & SYSTEM FLOW -->
+            <div class="lg:col-span-5 space-y-6">
+                <!-- Live Flow map card -->
+                <div class="bg-slate-900/80 rounded-2xl p-6 border border-slate-800">
+                    <h2 class="text-lg font-bold text-amber-400 flex items-center gap-2 mb-4 title-font">
+                        <i data-lucide="git-fork" class="w-5 h-5"></i>
+                        帝國金權與精神流量閉環
+                    </h2>
+                    <p class="text-xs text-slate-400 mb-6">
+                        下圖展示了福智如何將信眾的虔誠，提煉為世俗巨額資本，最終觸發跨國國安審查的閉環路徑：
+                    </p>
+                    
+                    <!-- Dynamic Flow visualization -->
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800/60 hover:border-amber-500/30 transition">
+                            <span class="w-7 h-7 bg-amber-500/20 text-amber-400 rounded-lg flex items-center justify-center font-bold text-xs">01</span>
+                            <div class="flex-1">
+                                <h4 class="text-xs font-bold text-slate-200">流量入口：廣論班依止法</h4>
+                                <p class="text-[10px] text-slate-400">以造神運動使信眾無條件服從「真如」導師權威。</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-slate-600"></i>
+                        </div>
+
+                        <div class="flex items-center gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800/60 hover:border-amber-500/30 transition">
+                            <span class="w-7 h-7 bg-amber-500/20 text-amber-400 rounded-lg flex items-center justify-center font-bold text-xs">02</span>
+                            <div class="flex-1">
+                                <h4 class="text-xs font-bold text-slate-200">變現引擎：里仁與義工無償勞作</h4>
+                                <p class="text-[10px] text-slate-400">榨取極高價值的免費勞動力，轉化為年營收數十億台幣。</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-slate-600"></i>
+                        </div>
+
+                        <div class="flex items-center gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800/60 hover:border-amber-500/30 transition">
+                            <span class="w-7 h-7 bg-amber-500/20 text-amber-400 rounded-lg flex items-center justify-center font-bold text-xs">03</span>
+                            <div class="flex-1">
+                                <h4 class="text-xs font-bold text-slate-200">資產轉移：地下人頭與信託帳戶</h4>
+                                <p class="text-[10px] text-slate-400">利用法師、信眾境外個人帳戶多層轉匯，規避洗錢防制監管。</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-slate-600"></i>
+                        </div>
+
+                        <div class="flex items-center gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800/60 hover:border-amber-500/30 transition">
+                            <span class="w-7 h-7 bg-red-500/20 text-red-400 rounded-lg flex items-center justify-center font-bold text-xs">04</span>
+                            <div class="flex-1">
+                                <h4 class="text-xs font-bold text-slate-200">資產沉澱：加拿大 PEI 購地計畫</h4>
+                                <p class="text-[10px] text-slate-400">大舉購置1.7萬英畝土地、申報5億美元境外淨資產。</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-slate-600"></i>
+                        </div>
+
+                        <div class="flex items-center gap-3 p-3 bg-red-950/40 rounded-xl border border-red-900/30">
+                            <span class="w-7 h-7 bg-red-500/30 text-red-400 rounded-lg flex items-center justify-center font-bold text-xs">05</span>
+                            <div class="flex-1">
+                                <h4 class="text-xs font-bold text-red-400">終極引線：美加國安「外國干預」審查</h4>
+                                <p class="text-[10px] text-red-300">因中功與統戰背景，2025/2026年遭遇皇家騎警與CSIS聯合徹查。</p>
+                            </div>
+                            <i data-lucide="alert-triangle" class="w-4 h-4 text-red-500 animate-pulse"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dark Web/Leak Monitor Terminal -->
+                <div class="bg-slate-950 rounded-2xl p-6 border border-slate-800 scanline relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xs font-bold text-green-400 flex items-center gap-2 title-font">
+                            <span class="w-2.5 h-2.5 bg-green-500 rounded-full animate-ping"></span>
+                            暗網與洩露通道即時監控
+                        </h3>
+                        <span class="text-[9px] text-slate-500">SECURE SHELL v2.026</span>
+                    </div>
+                    <div class="space-y-2 font-mono text-[10px] text-green-300/80">
+                        <p><span class="text-slate-600">[13:21:05]</span> CONNECTED TO ONION://BW-LEAKS-ARCHIVE.ONION</p>
+                        <p><span class="text-slate-600">[13:21:42]</span> RETRIEVING: GEBIS-GWBI_Offshore_Transfer_Voucher.pdf</p>
+                        <p><span class="text-amber-500">[WARN] FOUND 42 SEPARATE BANK WIRE ROUTES FROM TAIWANESE INDIVIDUALS TO PEI TRUST</span></p>
+                        <p><span class="text-slate-600">[13:22:10]</span> SEC_TRANS_VOL: $120,450,200 USD (Cumulative 2018-2025)</p>
+                        <p><span class="text-red-400">[THREAT_IND] RCMP/FINTRAC Case File: #2025-E-849-PEI</span></p>
+                        <p><span class="text-slate-600">[13:23:01]</span> LEAKED_AUDIO_DEC_KEY: JMR_2024_CONFIDENTIAL_DIRECTIVE</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-900 flex justify-between text-[10px] text-slate-500">
+                        <span>信源可用度: 94.7% (高優先度)</span>
+                        <span>暗網解密完畢</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT PANEL: DETAILED PARADOX ANALYZER & TRANSCENDENTAL SOLUTIONS -->
+            <div class="lg:col-span-7 space-y-6">
+                <!-- Selection Tabs -->
+                <div class="flex border-b border-slate-800 text-sm">
+                    <button onclick="switchCategory('pre2026')" id="tab-pre2026" class="flex-1 py-3 text-center font-bold text-amber-500 tab-active transition">
+                        2026年前：內生性系統癌變
+                    </button>
+                    <button onclick="switchCategory('post2026')" id="tab-post2026" class="flex-1 py-3 text-center font-bold text-slate-400 transition">
+                        2026年後：外在性地緣風暴
+                    </button>
+                </div>
+
+                <!-- Interactive Cards Container -->
+                <div id="cards-container" class="space-y-6">
+                    <!-- Cards will be populated dynamically -->
+                </div>
+            </div>
+
+        </div>
+
+        <!-- TRANSCENDENTAL SOLUTIONS SECTOR -->
+        <section class="mt-12 bg-gradient-to-br from-slate-900 to-indigo-950 p-6 md:p-10 rounded-3xl border border-indigo-900/30">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-8 pb-6 border-b border-indigo-900/50">
+                <div>
+                    <h2 class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-indigo-300 title-font tracking-wider">
+                        超越世人有限知解的「解構自救」路徑
+                    </h2>
+                    <p class="text-xs text-slate-400 mt-1">
+                        常規的法律訴訟與媒體揭露，只會激化信眾的「被迫害妄想」並固化組織防禦。必須從本體論上進行重構。
+                    </p>
+                </div>
+                <div class="mt-4 md:mt-0 bg-indigo-500/10 text-indigo-400 text-xs px-3 py-1 rounded-md border border-indigo-500/20">
+                    TRANSCENDENTAL PATHWAY
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div class="bg-slate-950/60 p-5 rounded-2xl border border-indigo-900/20 hover:border-indigo-500/30 transition">
+                    <div class="flex items-center gap-3 mb-3 text-amber-400">
+                        <span class="p-2 bg-amber-400/10 rounded-lg"><i data-lucide="database" class="w-5 h-5"></i></span>
+                        <h3 class="font-bold text-sm">1. 功德解耦：開源「靈魂綁定憑證 (SBT)」帳本</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        <strong class="text-amber-500">底層解法：</strong> 福智的核心控制力，在於將信眾對「成佛/集資糧」的精神需求與「世俗法幣/捐款/免費勞動」進行中心化掛鉤。必須發起一場「靈魂綁定功德帳本（Soulbound Tokens）」開源運動。
+                        信眾的所有付出（義工、慈心種樹）均在區塊鏈上開源發行、不可轉讓的 SBT，完全免除法幣交易。將精神功德與法幣脫鉤，瞬間化解了女居士的「法幣提現能力」，讓商業帝國因失血而自然解體，同時保全信眾的修行初衷。
+                    </p>
+                </div>
+
+                <div class="bg-slate-950/60 p-5 rounded-2xl border border-indigo-900/20 hover:border-indigo-500/30 transition">
+                    <div class="flex items-center gap-3 mb-3 text-purple-400">
+                        <span class="p-2 bg-purple-400/10 rounded-lg"><i data-lucide="users" class="w-5 h-5"></i></span>
+                        <h3 class="font-bold text-sm">2. 戒律共識：重構「去中心化僧團自治 DAO」</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        <strong class="text-purple-400">底層解法：</strong> 傳統僧團內部之所以失靈，是因為其被外行居士（金夢蓉）利用高壓依止法綁架。實際上，佛陀最初創立的僧團（波羅提木叉）本質是高度民主且去中心化的議會制。
+                        引導僧眾以「戒律智能合約」形式治理，所有法會基金、土地所有權、重要人事決策均透過多簽錢包（Multi-Sig）與公開投票鏈上執行，徹底破除個人神權獨裁，回歸原始佛陀僧俗自治的清淨道風。
+                    </p>
+                </div>
+
+                <div class="bg-slate-950/60 p-5 rounded-2xl border border-indigo-900/20 hover:border-indigo-500/30 transition">
+                    <div class="flex items-center gap-3 mb-3 text-blue-400">
+                        <span class="p-2 bg-blue-400/10 rounded-lg"><i data-lucide="book-open" class="w-5 h-5"></i></span>
+                        <h3 class="font-bold text-sm">3. 開源智慧：解禁「廣論法脈」版權圍牆</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        <strong class="text-blue-400">底層解法：</strong> 福智以封閉式廣論班限制信眾思想，將日常老和尚的錄音、譯經院藏文大藏經翻譯成果視為獨佔智慧產權。
+                        外部有識之士應發起「開源廣論（Open Lamrim）」項目，將所有藏傳、漢傳佛法經典及翻譯無條件公有化（Creative Commons 授權），並透過 AI 進行全網免費釋義。當真理不再能被「福智」專營，其依靠封閉班級建立的信息不對稱帝國將不攻自破。
+                    </p>
+                </div>
+
+                <div class="bg-slate-950/60 p-5 rounded-2xl border border-indigo-900/20 hover:border-indigo-500/30 transition">
+                    <div class="flex items-center gap-3 mb-3 text-green-400">
+                        <span class="p-2 bg-green-400/10 rounded-lg"><i data-lucide="globe" class="w-5 h-5"></i></span>
+                        <h3 class="font-bold text-sm">4. 地緣脫鉤：加拿大 PEI 土地公有化託管</h3>
+                    </div>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        <strong class="text-green-400">底層解法：</strong> 為徹底洗刷「中共統戰與海外洗錢白手套」疑雲，福智加拿大總部應壯士斷腕，與金夢蓉意志完全切割。將 1.7 萬英畝的 PEI 土地無償移交給由加拿大環保組織、原住民代表、PEI 省政府與國際中立佛教學者共同組成的「生態保育公共信託」。
+                        這不僅消弭了地緣政治國安危機，更能實現日常老和尚最初的慈心、有機、關懷大地的真正遺願。
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="mt-12 text-center text-xs text-slate-600 border-t border-slate-900 pt-6">
+            <p>© 2026 THE PROPHET REPORT. FOR DEEPER DISCOVERY AND DHARMA PURIFICATION.</p>
+        </footer>
+    </div>
+
+    <!-- DATA & INTERACTION SCRIPT -->
+    <script>
+        const data = {
+            pre2026: [
+                {
+                    id: "leader",
+                    title: "一、精神核心：在家女居士接班與「造神式依止法」",
+                    focus: "精神權威的非法繼承與洗腦爭議",
+                    positive: "日常法師欽定的繼承人「真如老師」，克服性別與世俗偏見，承接格魯派純淨法脈，引導僧俗大眾依止善知識。其神格化的表述是慈悲與智慧的化身，在五濁惡世中引渡迷途信眾。",
+                    negative: "金夢蓉（真如）利用藏傳佛教「視師如佛」的依止法大肆進行精神控制。內部爆料指出，其偽造日常法師遺囑奪權，強迫僧團比丘對身為在家女居士的她頂禮，並透過密閉空間進行個人崇拜灌輸、排除異己，徹底顛覆佛教兩千年的出家戒律。",
+                    evidence: "前住持梵因法師、前長老法師等數十位僧團骨幹在 2017-2022 年陸續出走並發起公開指控；暗網中存有金夢蓉私人要求僧眾「絕對服從其一切世俗與心靈指示」的內部核心音頻記錄。"
+                },
+                {
+                    id: "labor",
+                    title: "二、經濟底層：慈心里仁與信眾無償「淨罪集資」勞作",
+                    focus: "免費勞動力的信仰變現與不公平世俗競爭",
+                    positive: "里仁與慈心事業是將佛法實踐於大地的偉大創舉，旨在推廣有機、保護生命。信眾懷著菩提心，以無償義工身份參與，是不可多得的「淨罪集資、消業成佛」之殊勝修行。",
+                    negative: "里仁有機商店利用信眾對「成佛」的執念與罪惡感，榨取龐大且不需支付任何薪資、勞健保、超時補貼的高素質勞動力。這不僅嚴重違反世俗《勞基法》，更使里仁能以「零勞動成本」進行不公平的世俗商業競爭，將信眾的宗教熱情直接轉化為資本。這些數十億台幣的盈餘隨後下落不明，多數流入境外私人名下。",
+                    evidence: "台灣勞檢機構曾多次接獲檢舉，指里仁店面與物流中心存在假「修行」之名行「超時無償工作」之實。根據2024年流出的內財務賬目，里仁實質獲利結構中有超過 42% 歸功於「零人工支出」帶來的超額利潤。"
+                },
+                {
+                    id: "child",
+                    title: "三、教育控制：雲林「福智教育園區」的幼童超前剃度",
+                    focus: "未成年人思想封閉管理與受教權爭議",
+                    positive: "為佛教與世間培養德才兼備的頂尖儒佛大才，讓稚幼童蒙在沒有污染的封閉式德育環境中成長，背誦四書五經與廣論，為大乘佛教僧才建立起跑線上的絕對優勢。",
+                    negative: "福智園區在雲林古坑形成獨立於世俗社會的「國中之國」。利用家長對上師的迷信，引導並施壓未成年兒童在心智未成熟、無世俗法律同意權的前提下剃度出家。多位還俗者爆料，園區對反悔出家的學童進行冷暴力、精神羞辱與社交隔離，嚴重侵害了兒童的基本人權與自由發展受教權。",
+                    evidence: "台灣教育部與多名社會學家（如雲林科技大學多位教授）的實地訪談與學術調查顯示，福智教育園區學子還俗率逐年上升，且還俗後普遍存在嚴重心理創傷，難以融入正常的現代世俗社會。"
+                }
+            ],
+            post2026: [
+                {
+                    id: "pei_land",
+                    title: "四、金融出海：加拿大愛德華王子島 (PEI) 1.7 萬英畝購地風暴",
+                    focus: "人頭地下匯兌、規避土地法與洗錢調查",
+                    positive: "福智在加拿大 PEI 建立 Great Wisdom Buddhist Institute (GWBI) 與 Great Enlightenment Buddhist Institute Society (GEBIS)，大舉購地建設全球最大的譯經院與佛法城邦，是為了在西方自由世界延續被中國共產黨破壞的藏傳法脈，造福千秋萬代。",
+                    negative: "福智涉嫌鑽法律漏洞，利用數百名信眾與法師的「私人個人人頭帳戶」，化整為零地將在台灣非法募集與里仁賺取的數十億資金通過地下匯兌轉往加拿大。PEI省政府、加拿大皇家騎警（RCMP）與反洗錢機構 FINTRAC 於近期全面啟動洗錢與逃稅調查，直指其擁有超過 17,000 英畝土地已嚴重違反 PEI 當地的《土地保護法》外國人購地限制限制。",
+                    evidence: "加拿大聯邦反洗錢機構 FINTRAC 2025 年底解密報告指，有大筆來自台灣、通過連續號碼的 100 加元現金存款直接進入 GEBIS 相關人頭賬戶。PEI 省長 Rob Lantz 近期多次接受加拿大 CBC 與 Globe and Mail 採訪，表態不排除充公或強制拍賣該組織非法持有的土地超額份額。"
+                },
+                {
+                    id: "ccp_influence",
+                    title: "五、國安紅線：中國政府境外統戰與政治白手套疑雲",
+                    focus: "加國大選涉嫌干預與中美地緣政治角力",
+                    positive: "福智是弘揚格魯派純淨佛法的無國界宗教組織，積極參與包括兩岸、國際文化宗教論壇，以大悲心感化人心，期盼將佛法傳回神州大地，實現日常老和尚的「兩岸弘法」悲願。",
+                    negative: "加拿大國家安全局（CSIS）及安全專家 Garry Clement 調查指，福智首腦金夢蓉出身中國（曾任中功重要骨幹），其家族與大陸統戰部門、中國佛教協會及班禪系統存在深不可測的暗中利益輸送。福智被強烈質疑在 PEI 扮演了中共「海外警務站、洗錢與干預加拿大地方大選、進行外國滲透」的白手套，在中美對抗升級的冷戰格局下，直接踩中北美政壇最敏感的外國干預（Foreign Interference）國安高壓紅線。",
+                    evidence: "加拿大國家安全局 (CSIS) 2025/2026 年度外國干預非機密聽證報告中，GEBIS/GWBI 被列為「高度關注之具有中資背景與統戰滲透風險的非政府組織」；CBC 專題新聞《The Quiet Kingdom》深入報導其如何暗中影響當地選舉與政客利益關係。"
+                },
+                {
+                    id: "darkweb_leak",
+                    title: "六、終極內戰：反對派高調復出與「暗網核心財務數據」大洩露",
+                    focus: "司法核彈與內部洗錢憑證大白於天下",
+                    positive: "對於脫離僧侶梵因等人的抹黑、提告，福智僧團秉持「修悲無瞋、不予回應」的佛教慈悲精神，將此視為考驗信眾信心、淨化共業的難得因緣，清者自清。",
+                    negative: "2025至2026年，前鳳山寺住持梵因與多位財團、政界大佬聯手回台，發動多起遺產訴訟與洗錢罪告發，直擊福智金融核心。同時，在海外加密論壇及暗網（Onion）上出現名為「BW-Gate 2026」的巨大數據庫，內含金夢蓉多筆境外開曼群島避稅空殼公司註冊資料、海外信託架構、以及在台灣與加拿大匯款賬單的精密對賬表，直接向多國稅務局與司法部提供了致命鐵證。",
+                    evidence: "暗網「BW-Gate 2026」洩漏套件（共14.2GB PDF與音頻壓縮包）已於 2025 年底被金融分析師下載並證實其賬戶流向與福智加拿大高層個人姓名相符；台灣高等檢察署已將相關匯款路徑納入偵辦範圍。"
+                }
+            ]
+        };
+
+        function switchCategory(category) {
+            // Update tabs
+            const tabPre = document.getElementById('tab-pre2026');
+            const tabPost = document.getElementById('tab-post2026');
+            
+            if (category === 'pre2026') {
+                tabPre.className = "flex-1 py-3 text-center font-bold text-amber-500 tab-active transition";
+                tabPost.className = "flex-1 py-3 text-center font-bold text-slate-400 transition";
+            } else {
+                tabPre.className = "flex-1 py-3 text-center font-bold text-slate-400 transition";
+                tabPost.className = "flex-1 py-3 text-center font-bold text-amber-500 tab-active transition";
+            }
+
+            renderCards(category);
+        }
+
+        function renderCards(category) {
+            const container = document.getElementById('cards-container');
+            container.innerHTML = '';
+
+            data[category].forEach(item => {
+                const card = document.createElement('div');
+                card.className = "bg-slate-900/60 rounded-2xl p-6 border border-slate-800 space-y-4 hover:border-slate-700 transition duration-300";
+                
+                card.innerHTML = `
+                    <div class="flex items-start justify-between border-b border-slate-800/80 pb-3">
+                        <div>
+                            <h3 class="text-base md:text-lg font-black text-slate-100 title-font tracking-wide">${item.title}</h3>
+                            <span class="inline-block mt-1 text-[11px] text-amber-400/80 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20 font-bold">
+                                焦點：${item.focus}
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                        <!-- Positive Expression -->
+                        <div class="bg-amber-950/20 p-4 rounded-xl border border-amber-500/10 glow-gold">
+                            <h4 class="text-xs font-bold text-amber-400 flex items-center gap-1.5 mb-2 title-font uppercase tracking-wider">
+                                <i data-lucide="sun" class="w-4 h-4"></i>
+                                聖潔敘事（正面表述）
+                            </h4>
+                            <p class="text-xs text-amber-100/90 leading-relaxed font-light">${item.positive}</p>
+                        </div>
+
+                        <!-- Negative Expression -->
+                        <div class="bg-red-950/20 p-4 rounded-xl border border-red-500/10 glow-red">
+                            <h4 class="text-xs font-bold text-red-400 flex items-center gap-1.5 mb-2 title-font uppercase tracking-wider">
+                                <i data-lucide="eye-off" class="w-4 h-4"></i>
+                                黑盒真相（負面表述）
+                            </h4>
+                            <p class="text-xs text-red-100/90 leading-relaxed font-light">${item.negative}</p>
+                        </div>
+                    </div>
+
+                    <!-- Evidence/Leaked Data Segment -->
+                    <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-[11px] text-slate-400 space-y-1">
+                        <span class="text-green-400 font-bold flex items-center gap-1">
+                            <i data-lucide="database" class="w-3.5 h-3.5"></i> 核心與爆料數據依據：
+                        </span>
+                        <p class="leading-relaxed text-slate-300">${item.evidence}</p>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+            
+            // Re-initialize lucide icons on dynamically created elements
+            lucide.createIcons();
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            renderCards('pre2026');
+        });
+    </script>
+</body>
+</html>
