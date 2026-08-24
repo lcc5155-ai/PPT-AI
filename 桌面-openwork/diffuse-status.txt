@@ -1,0 +1,82 @@
+- generic [ref=f42e2]:
+  - banner [ref=f42e4]:
+    - generic [ref=f42e6]:
+      - heading "Spaces Hugging Face's logo huggingface-projects / diffuse-the-rest like 932 Running" [level=1] [ref=f42e7]:
+        - generic [ref=f42e8]:
+          - link "Spaces" [ref=f42e9] [cursor=pointer]:
+            - /url: /spaces
+          - link [ref=f42e10] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=f42e11]
+        - separator [ref=f42e12]
+        - generic [ref=f42e13]:
+          - link [ref=f42e17] [cursor=pointer]:
+            - /url: /huggingface-projects
+          - link "huggingface-projects" [ref=f42e21] [cursor=pointer]:
+            - /url: /huggingface-projects
+          - generic [ref=f42e22]: /
+        - generic [ref=f42e23]:
+          - link "diffuse-the-rest" [ref=f42e24] [cursor=pointer]:
+            - /url: /spaces/huggingface-projects/diffuse-the-rest
+          - button "Copy space name to clipboard" [ref=f42e25] [cursor=pointer]
+        - generic [ref=f42e30]:
+          - button "like" [ref=f42e33] [cursor=pointer]
+          - button "932" [ref=f42e37] [cursor=pointer]
+        - generic [ref=f42e38]: Running
+        - button [ref=f42e45] [cursor=pointer]
+      - button [ref=f42e53] [cursor=pointer]
+  - main [ref=f42e56]:
+    - iframe [active] [ref=f42e58]:
+      - generic [ref=f44e2]:
+        - generic [ref=f44e4]:
+          - generic [ref=f44e9]:
+            - generic "10" [ref=f44e14]
+            - generic [ref=f44e17]:
+              - button [ref=f44e18] [cursor=pointer]
+              - button [ref=f44e19] [cursor=pointer]
+            - button "🧹" [ref=f44e21] [cursor=pointer]
+            - button "⬇️" [ref=f44e23] [cursor=pointer]
+          - generic [ref=f44e26]:
+            - generic [ref=f44e27]:
+              - textbox [ref=f44e28]: Add prompt
+              - button "diffuse the f rest" [ref=f44e29] [cursor=pointer]
+            - generic [ref=f44e30]:
+              - generic [ref=f44e31] [cursor=pointer]: upload img
+              - paragraph [ref=f44e32]: "pro tip: upload img by dropping on the canvas"
+        - article [ref=f44e33]:
+          - generic [ref=f44e34]:
+            - paragraph [ref=f44e35]:
+              - text: Stable Diffusion model by
+              - link "CompVis" [ref=f44e36] [cursor=pointer]:
+                - /url: https://huggingface.co/CompVis
+              - text: and
+              - link "Stability AI" [ref=f44e37] [cursor=pointer]:
+                - /url: https://huggingface.co/stabilityai
+              - text: "- Demo by 🤗 Hugging Face"
+            - paragraph [ref=f44e38]:
+              - text: Powered by
+              - 'link "🤗 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch" [ref=f44e39] [cursor=pointer]':
+                - /url: https://github.com/huggingface/diffusers
+              - text: . Based on
+              - link "notebook by @psuraj28" [ref=f44e40] [cursor=pointer]:
+                - /url: https://twitter.com/psuraj28/status/1562039265126670339
+            - paragraph [ref=f44e41]:
+              - text: Check out
+              - link "Stable Diffusion Gradio demo" [ref=f44e42] [cursor=pointer]:
+                - /url: https://huggingface.co/spaces/stabilityai/stable-diffusion
+          - heading "LICENSE" [level=3] [ref=f44e43]
+          - paragraph [ref=f44e44]:
+            - text: The model is licensed with a
+            - link "CreativeML Open RAIL-M" [ref=f44e45] [cursor=pointer]:
+              - /url: https://huggingface.co/spaces/CompVis/stable-diffusion-license
+            - text: license. The authors claim no rights on the outputs you generate, you are free to use them and are accountable for their use which must not go against the provisions set in this license. The license forbids you from sharing any content that violates any laws, produce any harm to a person, disseminate any personal information that would be meant for harm, spread misinformation and target vulnerable groups. For the full list of restrictions please
+            - link "read the license" [ref=f44e46] [cursor=pointer]:
+              - /url: https://huggingface.co/spaces/CompVis/stable-diffusion-license
+          - heading "Biases and content acknowledgment" [level=3] [ref=f44e47]
+          - paragraph [ref=f44e48]:
+            - text: Despite how impressive being able to turn text into image is, beware to the fact that this model may output content that reinforces or exacerbates societal biases, as well as realistic faces, pornography and violence. The model was trained on the
+            - link "LAION-5B dataset" [ref=f44e49] [cursor=pointer]:
+              - /url: https://laion.ai/blog/laion-5b/
+            - text: ", which scraped non-curated image-text-pairs from the internet (the exception being the removal of illegal content) and is meant for research purposes. You can read more in the"
+            - link "model card" [ref=f44e50] [cursor=pointer]:
+              - /url: https://huggingface.co/CompVis/stable-diffusion-v1-4

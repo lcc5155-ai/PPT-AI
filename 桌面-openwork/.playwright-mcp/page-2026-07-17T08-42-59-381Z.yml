@@ -1,0 +1,214 @@
+- generic [active] [ref=f62e1]:
+  - generic [ref=f62e3]:
+    - generic [ref=f62e4]:
+      - complementary [ref=f62e1074]:
+        - link [ref=f62e1075] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f62e7]: 跳至主要內容
+        - button [ref=f62e1076]:
+          - generic [ref=f62e9]: 鍵盤快速鍵
+        - link [ref=f62e1077] [cursor=pointer]:
+          - /url: https://cloud.google.com/docs/accessibility?hl=zh_TW
+          - generic [ref=f62e11]: 無障礙功能說明
+        - link [ref=f62e1080] [cursor=pointer]:
+          - /url: https://support.google.com/accessibility/contact/feedback?hl=zh_TW
+          - generic [ref=f62e17]: 無障礙工具意見回饋
+      - banner [ref=f62e23]:
+        - generic [ref=f62e24]:
+          - navigation [ref=f62e27]:
+            - button [ref=f62e1083] [cursor=pointer]
+          - link [ref=f62e1084] [cursor=pointer]:
+            - /url: /
+          - button [ref=f62e1085]:
+            - generic [ref=f62e240]: My First Project
+        - search [ref=f62e1086]:
+          - combobox [ref=f62e47]:
+            - searchbox [ref=f62e1087]
+          - button [disabled]:
+            - generic: 搜尋
+        - generic [ref=f62e49]:
+          - generic [ref=f62e50]:
+            - button [ref=f62e1088] [cursor=pointer]
+            - button [ref=f62e1089] [cursor=pointer]
+            - button [ref=f62e1090] [cursor=pointer]
+            - button [ref=f62e1091] [cursor=pointer]:
+              - generic [ref=f62e58]: "2"
+            - button [ref=f62e1092] [cursor=pointer]
+          - button [ref=f62e1093]
+    - generic [ref=f62e80]:
+      - navigation [ref=f62e1094]:
+        - link [ref=f62e1095] [cursor=pointer]:
+          - /url: /auth?project=project-88745a68-5a47-436c-925
+          - generic [ref=f62e285]: Google Auth Platform
+        - list [ref=f62e287]:
+          - listitem [ref=f62e288]:
+            - generic [ref=f62e289]: /
+            - link [ref=f62e1096] [cursor=pointer]:
+              - /url: /auth/scopes?project=project-88745a68-5a47-436c-925
+              - generic [ref=f62e293]: 資料存取權
+      - generic [ref=f62e91]:
+        - navigation [ref=f62e1097]:
+          - generic [ref=f62e99]:
+            - list [ref=f62e1098]:
+              - listitem [ref=f62e112]:
+                - link [ref=f62e1099] [cursor=pointer]:
+                  - /url: /auth/overview
+                  - generic [ref=f62e117]: 總覽
+              - listitem [ref=f62e123]:
+                - link [ref=f62e1100] [cursor=pointer]:
+                  - /url: /auth/branding
+                  - generic [ref=f62e128]: 品牌
+              - listitem [ref=f62e138]:
+                - link [ref=f62e1101] [cursor=pointer]:
+                  - /url: /auth/audience
+                  - generic [ref=f62e143]: 目標對象
+              - listitem [ref=f62e149]:
+                - link [ref=f62e1102] [cursor=pointer]:
+                  - /url: /auth/clients
+                  - generic [ref=f62e154]: 用戶端
+              - listitem [ref=f62e160]:
+                - link [ref=f62e1103] [cursor=pointer]:
+                  - /url: /auth/scopes
+                  - generic [ref=f62e165]: 資料存取權
+              - listitem [ref=f62e172]:
+                - link [ref=f62e1104] [cursor=pointer]:
+                  - /url: /auth/verification
+                  - generic [ref=f62e177]: 驗證中心
+              - listitem [ref=f62e184]:
+                - link [ref=f62e1105] [cursor=pointer]:
+                  - /url: /auth/settings
+                  - generic [ref=f62e189]: 設定
+            - button [ref=f62e1106] [cursor=pointer]
+        - main [ref=f62e202]:
+          - generic [ref=f62e315]:
+            - heading [level=1] [ref=f62e1107]:
+              - generic [ref=f62e322]: 資料存取權
+            - generic [ref=f62e325]:
+              - generic [ref=f62e327]:
+                - generic [ref=f62e328]:
+                  - paragraph [ref=f62e329]:
+                    - text: 「範圍」是用於表示您要求使用者為應用程式授予的權限，並可讓您的專案存取使用者 Google 帳戶中特定類型的私人使用者資料。
+                    - link [ref=f62e1108] [cursor=pointer]:
+                      - /url: https://developers.google.com/identity/protocols/oauth2/scopes?hl=zh_TW
+                      - text: 瞭解詳情
+                  - paragraph [ref=f62e334]:
+                    - text: 如果您新增了機密 () 或受限制的 () 範圍 (例如可讓您存取使用者電子郵件或聯絡人資料的範圍)，則須提交應用程式來完成驗證程序。
+                    - link [ref=f62e1110] [cursor=pointer]:
+                      - /url: https://support.google.com/cloud/answer/9110914?hl=zh_TW
+                      - text: 瞭解詳情
+                  - button [ref=f62e1112]:
+                    - generic [ref=f62e348]: 新增或移除範圍
+                - separator [ref=f62e349]
+                - generic [ref=f62e350]:
+                  - heading [level=2] [ref=f62e1113]: 您的非機密範圍
+                  - grid [ref=f62e1114]:
+                    - rowgroup [ref=f62e363]:
+                      - row [ref=f62e1115]:
+                        - columnheader [ref=f62e1116]:
+                          - generic [ref=f62e367] [cursor=pointer]:
+                            - button [ref=f62e1117]
+                            - button [ref=f62e1118]
+                        - columnheader [ref=f62e1119]:
+                          - generic [ref=f62e380] [cursor=pointer]:
+                            - generic [ref=f62e381]: API
+                            - button [ref=f62e1120]
+                        - columnheader [ref=f62e1121]:
+                          - generic [ref=f62e388] [cursor=pointer]:
+                            - generic [ref=f62e389]: 範圍
+                            - button [ref=f62e1122]
+                        - columnheader [ref=f62e1123]:
+                          - generic [ref=f62e396] [cursor=pointer]:
+                            - generic [ref=f62e397]: 使用者可以看見的說明
+                            - button [ref=f62e1124]
+                        - columnheader [ref=f62e1125]
+                    - rowgroup [ref=f62e403]:
+                      - row [ref=f62e1126]:
+                        - gridcell [ref=f62e1127]: 沒有可顯示的資料列
+                - separator [ref=f62e406]
+                - generic [ref=f62e407]:
+                  - heading [level=2] [ref=f62e1128]: 您的機密範圍
+                  - paragraph [ref=f62e971]:
+                    - text: 必須取得核准。
+                    - button [ref=f62e1129] [cursor=pointer]
+                  - grid [ref=f62e1130]:
+                    - rowgroup [ref=f62e425]:
+                      - row [ref=f62e1131]:
+                        - columnheader [ref=f62e1132]:
+                          - generic [ref=f62e429] [cursor=pointer]:
+                            - button [ref=f62e1133]
+                            - button [ref=f62e1134]
+                        - columnheader [ref=f62e1135]:
+                          - generic [ref=f62e442] [cursor=pointer]:
+                            - generic [ref=f62e443]: API
+                            - button [ref=f62e1136]
+                        - columnheader [ref=f62e1137]:
+                          - generic [ref=f62e450] [cursor=pointer]:
+                            - generic [ref=f62e451]: 範圍
+                            - button [ref=f62e1138]
+                        - columnheader [ref=f62e1139]:
+                          - generic [ref=f62e458] [cursor=pointer]:
+                            - generic [ref=f62e459]: 使用者可以看見的說明
+                            - button [ref=f62e1140]
+                        - columnheader [ref=f62e1141]
+                    - rowgroup [ref=f62e465]:
+                      - row [ref=f62e1142]:
+                        - gridcell [ref=f62e1143]
+                        - gridcell [ref=f62e995]
+                        - gridcell [ref=f62e1145]:
+                          - generic [ref=f62e997]: .../auth/calendar.readonly
+                        - gridcell [ref=f62e1146]: 查看及下載您可以透過 Google 日曆存取的任何日曆
+                        - gridcell [ref=f62e1147]:
+                          - button [ref=f62e1148] [cursor=pointer]
+                  - heading [level=5] [ref=f62e1150]: 您預計如何使用這些範圍？
+                  - generic [ref=f62e1006]:
+                    - generic [ref=f62e1008] [cursor=pointer]:
+                      - generic: 請在此處輸入原因說明
+                      - textbox [ref=f62e1151]
+                    - generic [ref=f62e1013]:
+                      - generic [ref=f62e1014]: 請向 Google 說明您為何需要這些範圍、預計如何使用範圍，以及為何更多的有限範圍仍不足夠。
+                      - generic [ref=f62e1016]: 0 / 1000
+                - separator [ref=f62e468]
+                - generic [ref=f62e469]:
+                  - heading [level=2] [ref=f62e1152]: 您的受限制範圍
+                  - paragraph [ref=f62e475]: 受限制範圍是指會要求存取高度機密使用者資料的範圍。
+                  - grid [ref=f62e1153]:
+                    - rowgroup [ref=f62e487]:
+                      - row [ref=f62e1154]:
+                        - columnheader [ref=f62e1155]:
+                          - generic [ref=f62e491] [cursor=pointer]:
+                            - button [ref=f62e1156]
+                            - button [ref=f62e1157]
+                        - columnheader [ref=f62e1158]:
+                          - generic [ref=f62e504] [cursor=pointer]:
+                            - generic [ref=f62e505]: API
+                            - button [ref=f62e1159]
+                        - columnheader [ref=f62e1160]:
+                          - generic [ref=f62e512] [cursor=pointer]:
+                            - generic [ref=f62e513]: 範圍
+                            - button [ref=f62e1161]
+                        - columnheader [ref=f62e1162]:
+                          - generic [ref=f62e520] [cursor=pointer]:
+                            - generic [ref=f62e521]: 使用者可以看見的說明
+                            - button [ref=f62e1163]
+                        - columnheader [ref=f62e1164]
+                    - rowgroup [ref=f62e527]:
+                      - row [ref=f62e1165]:
+                        - gridcell [ref=f62e1166]: 沒有可顯示的資料列
+                - separator [ref=f62e530]
+                - generic [ref=f62e1032]:
+                  - generic [ref=f62e1033]:
+                    - heading [level=2] [ref=f62e1167]: 示範影片：範圍的預計使用方式
+                    - button [ref=f62e1168] [cursor=pointer]
+                  - generic [ref=f62e1040]:
+                    - generic [ref=f62e1042] [cursor=pointer]:
+                      - generic: YouTube 連結
+                      - textbox [ref=f62e1169]
+                    - generic [ref=f62e1046]: 請提供 YouTube 影片，並透過影片說明您預計透過哪些方式在應用程式中使用這些範圍的資料。影片中必須包含您指派給這項專案的所有 OAuth 用戶端。
+              - button [ref=f62e1170]:
+                - generic [ref=f62e534]: Save
+              - button [ref=f62e1171]:
+                - generic [ref=f62e536]: 捨棄變更
+  - iframe [ref=f62e226]:
+    
+  - iframe [ref=f62e538]:
+    

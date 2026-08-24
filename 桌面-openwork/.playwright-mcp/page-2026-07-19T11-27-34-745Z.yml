@@ -1,0 +1,36 @@
+- generic [ref=f73e2]:
+  - banner [ref=f73e4]:
+    - generic [ref=f73e6]:
+      - heading "Spaces Hugging Face's logo stabilityai / stable-diffusion-3.5-large like 2.03k Agents Running on Zero Get PRO" [level=1] [ref=f73e7]:
+        - generic [ref=f73e8]:
+          - link "Spaces" [ref=f73e9] [cursor=pointer]:
+            - /url: /spaces
+          - link [ref=f73e10] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=f73e11]
+        - separator [ref=f73e12]
+        - generic [ref=f73e13]:
+          - link [ref=f73e17] [cursor=pointer]:
+            - /url: /stabilityai
+          - link "stabilityai" [ref=f73e21] [cursor=pointer]:
+            - /url: /stabilityai
+          - generic [ref=f73e22]: /
+        - generic [ref=f73e23]:
+          - link "stable-diffusion-3.5-large" [ref=f73e24] [cursor=pointer]:
+            - /url: /spaces/stabilityai/stable-diffusion-3.5-large
+          - button "Copy space name to clipboard" [ref=f73e25] [cursor=pointer]
+        - generic [ref=f73e30]:
+          - button "like" [ref=f73e33] [cursor=pointer]
+          - button "2.03k" [ref=f73e37] [cursor=pointer]
+        - generic [ref=f73e38]: Agents
+        - generic [ref=f73e49] [cursor=pointer]:
+          - text: Running
+          - generic [ref=f73e50]: "on"
+          - generic [ref=f73e51]: Zero
+        - link "Get PRO" [ref=f73e52] [cursor=pointer]:
+          - /url: /pro
+        - button [ref=f73e57] [cursor=pointer]
+      - button [ref=f73e65] [cursor=pointer]
+  - main [ref=f73e68]:
+    - iframe [ref=f73e70]:
+      

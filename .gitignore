@@ -1,0 +1,26 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Large binary files (備份到其他地方)
+*.pptx
+*.pdf
+*.exe
+*.zip
+*.rar
+
+# Node modules
+node_modules/
+
+# OpenCode
+opencode.jsonc
+
+# 臨時檔案
+*.tmp
+*.log

@@ -1,0 +1,50 @@
+- generic [ref=f24e1]:
+  - generic [ref=f24e3]:
+    - generic [ref=f24e4]:
+      - complementary "略過連結" [ref=f24e5]:
+        - link "跳至主要內容" [ref=f24e6] [cursor=pointer]:
+          - /url: /
+        - button "鍵盤快速鍵" [ref=f24e8]
+        - link [ref=f24e10] [cursor=pointer]:
+          - /url: https://cloud.google.com/docs/accessibility?hl=zh_TW
+          - generic [ref=f24e11]:
+            - text: 無障礙功能說明
+            - generic "外部連結 (在新視窗開啟)" [ref=f24e12]:
+              - img "外部連結 (在新視窗開啟)" [ref=f24e13]
+        - link [ref=f24e16] [cursor=pointer]:
+          - /url: https://support.google.com/accessibility/contact/feedback?hl=zh_TW
+          - generic [ref=f24e17]:
+            - text: 無障礙工具意見回饋
+            - generic "外部連結 (在新視窗開啟)" [ref=f24e18]:
+              - img "外部連結 (在新視窗開啟)" [ref=f24e19]
+      - banner [ref=f24e23]:
+        - generic [ref=f24e24]:
+          - navigation [ref=f24e27]:
+            - button "導覽選單 (.)" [ref=f24e28] [cursor=pointer]
+          - link "「Google Cloud Platform」首頁" [ref=f24e32] [cursor=pointer]:
+            - /url: /
+          - button "您目前使用的是「My First Project」。按下 Enter 鍵即可切換專案、資料夾或機構" [ref=f24e1350]:
+            - generic [ref=f24e41]: My First Project
+        - button "開啟搜尋功能" [ref=f24e140] [cursor=pointer]
+        - generic [ref=f24e52]:
+          - generic [ref=f24e53]:
+            - button "開啟或關閉 Gemini Cloud Assist 對話 (Alt G)" [ref=f24e57] [cursor=pointer]
+            - button "免費試用狀態" [ref=f24e1357] [cursor=pointer]
+            - button "啟用 Cloud Shell (G then S)" [ref=f24e144] [cursor=pointer]
+            - button "作業進行中。「開啟通知」" [ref=f24e1634] [cursor=pointer]:
+              - generic:
+                - progressbar
+            - button "設定與公用程式" [ref=f24e75] [cursor=pointer]
+          - button "帳戶：林崇奇 (lcc5155@gmail.com)" [ref=f24e150]
+    - main [active] [ref=f24e123]:
+      - progressbar [ref=f24e1636]
+      - dialog "通知" [ref=f24e1600]:
+        - generic [ref=f24e1605]:
+          - generic "目前顯示的是機構「lcc5155-org」中的專案「My First Project」" [ref=f24e1607]
+          - button [ref=f24e1608] [cursor=pointer]
+  - iframe [ref=f24e136]:
+    
+  - iframe [ref=f24e1344]:
+    
+  - iframe [ref=f24e1345]:
+    

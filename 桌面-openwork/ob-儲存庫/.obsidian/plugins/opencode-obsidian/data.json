@@ -1,0 +1,14 @@
+{
+  "port": 14096,
+  "hostname": "127.0.0.1",
+  "autoStart": false,
+  "opencodePath": "opencode",
+  "projectDirectory": "",
+  "startupTimeout": 45000,
+  "defaultViewLocation": "sidebar",
+  "injectWorkspaceContext": false,
+  "maxNotesInContext": 20,
+  "maxSelectionLength": 2000,
+  "customCommand": "C:\\Users\\USER\\AppData\\Local\\Programs\\@openworkdesktop\\resources\\sidecars\\opencode.exe serve --port 14096 --hostname 127.0.0.1 --cors app://obsidian.md",
+  "useCustomCommand": true
+}

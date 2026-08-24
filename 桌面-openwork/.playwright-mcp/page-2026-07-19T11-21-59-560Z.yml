@@ -1,0 +1,61 @@
+- generic [ref=f48e3]:
+  - banner [ref=f48e4]:
+    - generic [ref=f48e7]:
+      - link [ref=f48e8] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f48e11]:
+        - link [ref=f48e12] [cursor=pointer]:
+          - /url: /
+          - button "hello" [ref=f48e13]
+        - link [ref=f48e14] [cursor=pointer]:
+          - /url: /play
+          - button "play" [ref=f48e15]
+        - link [ref=f48e16] [cursor=pointer]:
+          - /url: /apps
+          - button "apps" [ref=f48e17]
+        - link [ref=f48e18] [cursor=pointer]:
+          - /url: /community
+          - button "community" [ref=f48e19]
+        - link [ref=f48e20] [cursor=pointer]:
+          - /url: https://discord.gg/pollinations-ai-885844321461485618
+          - img "Discord" [ref=f48e21]
+        - link [ref=f48e23] [cursor=pointer]:
+          - /url: https://www.github.com/pollinations/pollinations
+          - img "GitHub" [ref=f48e24]
+        - link "Enter External link" [ref=f48e26] [cursor=pointer]:
+          - /url: https://enter.pollinations.ai
+          - generic [ref=f48e27]: Enter
+          - img "External link" [ref=f48e28]
+  - main [ref=f48e30]
+  - contentinfo [ref=f48e31]:
+    - generic [ref=f48e34]:
+      - generic [ref=f48e36]:
+        - link [ref=f48e37] [cursor=pointer]:
+          - /url: https://www.github.com/pollinations/pollinations
+          - img "GitHub" [ref=f48e38]
+        - link [ref=f48e40] [cursor=pointer]:
+          - /url: https://discord.gg/pollinations-ai-885844321461485618
+          - img "Discord" [ref=f48e41]
+        - link [ref=f48e43] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/pollinations-ai
+          - img "LinkedIn" [ref=f48e44]
+        - link [ref=f48e46] [cursor=pointer]:
+          - /url: https://instagram.com/pollinations_ai
+          - img "Instagram" [ref=f48e47]
+        - link [ref=f48e49] [cursor=pointer]:
+          - /url: https://twitter.com/pollinations_ai
+          - img "X" [ref=f48e50]
+        - link [ref=f48e52] [cursor=pointer]:
+          - /url: https://www.reddit.com/r/pollinations_ai/
+          - img "Reddit" [ref=f48e53]
+      - generic [ref=f48e55]:
+        - link "Terms" [ref=f48e56] [cursor=pointer]:
+          - /url: /terms
+        - link "Privacy" [ref=f48e58] [cursor=pointer]:
+          - /url: /privacy
+        - link "Refunds" [ref=f48e60] [cursor=pointer]:
+          - /url: /refunds
+        - link "Register External link" [ref=f48e62] [cursor=pointer]:
+          - /url: https://enter.pollinations.ai
+          - generic [ref=f48e63]: Register
+          - img "External link" [ref=f48e64]

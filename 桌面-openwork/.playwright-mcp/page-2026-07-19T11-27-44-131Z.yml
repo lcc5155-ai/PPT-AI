@@ -1,0 +1,77 @@
+- generic [ref=f78e2]:
+  - banner [ref=f78e4]:
+    - generic [ref=f78e6]:
+      - heading "Spaces Hugging Face's logo stabilityai / stable-diffusion-3.5-large like 2.03k Agents Running on Zero Get PRO" [level=1] [ref=f78e7]:
+        - generic [ref=f78e8]:
+          - link "Spaces" [ref=f78e9] [cursor=pointer]:
+            - /url: /spaces
+          - link [ref=f78e10] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=f78e11]
+        - separator [ref=f78e12]
+        - generic [ref=f78e13]:
+          - link [ref=f78e17] [cursor=pointer]:
+            - /url: /stabilityai
+          - link "stabilityai" [ref=f78e21] [cursor=pointer]:
+            - /url: /stabilityai
+          - generic [ref=f78e22]: /
+        - generic [ref=f78e23]:
+          - link "stable-diffusion-3.5-large" [ref=f78e24] [cursor=pointer]:
+            - /url: /spaces/stabilityai/stable-diffusion-3.5-large
+          - button "Copy space name to clipboard" [ref=f78e25] [cursor=pointer]
+        - generic [ref=f78e30]:
+          - button "like" [ref=f78e33] [cursor=pointer]
+          - button "2.03k" [ref=f78e37] [cursor=pointer]
+        - generic [ref=f78e38]: Agents
+        - generic [ref=f78e49] [cursor=pointer]:
+          - text: Running
+          - generic [ref=f78e50]: "on"
+          - generic [ref=f78e51]: Zero
+        - link "Get PRO" [ref=f78e52] [cursor=pointer]:
+          - /url: /pro
+        - button [ref=f78e57] [cursor=pointer]
+      - button [ref=f78e65] [cursor=pointer]
+  - main [ref=f78e68]:
+    - iframe [active] [ref=f78e70]:
+      - generic [ref=f80e5]:
+        - main [ref=f80e6]:
+          - generic [ref=f80e8]:
+            - heading [level=1] [ref=f80e13]:
+              - link "Stable Diffusion 3.5 Large (8B)" [ref=f80e14] [cursor=pointer]:
+                - /url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+            - paragraph [ref=f80e19]:
+              - link "Learn more" [ref=f80e20] [cursor=pointer]:
+                - /url: https://stability.ai/news/introducing-stable-diffusion-3-5
+              - text: about the Stable Diffusion 3.5 series. Try on
+              - link "Stability AI API" [ref=f80e21] [cursor=pointer]:
+                - /url: https://platform.stability.ai/docs/api-reference#tag/Generate/paths/~1v2beta~1stable-image~1generate~1sd3/post
+              - text: ", or"
+              - link "download model" [ref=f80e22] [cursor=pointer]:
+                - /url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+              - text: to run locally with ComfyUI or diffusers.
+            - generic [ref=f80e23]:
+              - generic [ref=f80e25]:
+                - generic [ref=f80e26]: Prompt
+                - textbox "Prompt" [ref=f80e28]:
+                  - /placeholder: Enter your prompt
+              - button "Run" [ref=f80e29] [cursor=pointer]
+            - generic "Empty value" [ref=f80e31]
+            - button "Advanced Settings ▼" [ref=f80e38] [cursor=pointer]:
+              - generic [ref=f80e39]: Advanced Settings
+              - generic [ref=f80e40]: ▼
+            - generic [ref=f80e41]:
+              - generic [ref=f80e42]: Examples
+              - button "A capybara wearing a suit holding a sign that reads Hello World" [ref=f80e46] [cursor=pointer]
+        - contentinfo "Gradio footer navigation" [ref=f80e47]:
+          - button [ref=f80e48] [cursor=pointer]:
+            - text: Use via API
+            - img "logo" [ref=f80e49]
+          - generic [ref=f80e50]: ·
+          - link [ref=f80e51] [cursor=pointer]:
+            - /url: https://gradio.app
+            - text: Built with Gradio
+            - img "logo" [ref=f80e52]
+          - generic [ref=f80e53]: ·
+          - button [ref=f80e54] [cursor=pointer]:
+            - text: Settings
+            - img "Settings" [ref=f80e55]

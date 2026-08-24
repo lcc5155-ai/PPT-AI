@@ -1,0 +1,863 @@
+- generic [ref=f24e1]:
+  - generic [ref=f24e3]:
+    - generic [ref=f24e4]:
+      - complementary "略過連結" [ref=f24e5]:
+        - link "跳至主要內容" [ref=f24e6] [cursor=pointer]:
+          - /url: /
+        - button "鍵盤快速鍵" [ref=f24e8]
+        - link [ref=f24e10] [cursor=pointer]:
+          - /url: https://cloud.google.com/docs/accessibility?hl=zh_TW
+          - generic [ref=f24e11]:
+            - text: 無障礙功能說明
+            - generic "外部連結 (在新視窗開啟)" [ref=f24e12]:
+              - img "外部連結 (在新視窗開啟)" [ref=f24e13]
+        - link [ref=f24e16] [cursor=pointer]:
+          - /url: https://support.google.com/accessibility/contact/feedback?hl=zh_TW
+          - generic [ref=f24e17]:
+            - text: 無障礙工具意見回饋
+            - generic "外部連結 (在新視窗開啟)" [ref=f24e18]:
+              - img "外部連結 (在新視窗開啟)" [ref=f24e19]
+      - banner [ref=f24e23]:
+        - generic [ref=f24e24]:
+          - navigation [ref=f24e27]:
+            - button "導覽選單 (.)" [ref=f24e28] [cursor=pointer]
+          - link "「Google Cloud Platform」首頁" [ref=f24e32] [cursor=pointer]:
+            - /url: /
+          - button "未選取任何專案。按下 Enter 鍵即可選取專案、資料夾或機構。" [ref=f24e40]:
+            - generic [ref=f24e41]: 選取專案
+        - button "開啟搜尋功能" [ref=f24e140] [cursor=pointer]
+        - generic [ref=f24e52]:
+          - generic [ref=f24e53]:
+            - button "開啟或關閉 Gemini Cloud Assist 對話 (Alt G)" [ref=f24e57] [cursor=pointer]
+            - button "啟用 Cloud Shell (G then S)" [ref=f24e144] [cursor=pointer]
+            - button "尚未讀取 1 則通知。「開啟通知」" [ref=f24e67] [cursor=pointer]:
+              - generic [ref=f24e68]: "1"
+            - button "設定與公用程式" [ref=f24e75] [cursor=pointer]
+          - button "帳戶：林崇奇 (lcc5155@gmail.com)" [ref=f24e150]
+    - generic [ref=f24e90]:
+      - navigation "導覽標記" [ref=f24e95]:
+        - link "API 和服務" [ref=f24e98] [cursor=pointer]:
+          - /url: /apis
+        - list [ref=f24e104]:
+          - listitem [ref=f24e105]:
+            - generic [ref=f24e106]: /
+            - link "API 程式庫" [ref=f24e109] [cursor=pointer]:
+              - /url: /apis/library
+      - main [ref=f24e123]:
+        - generic [ref=f24e162]:
+          - banner [ref=f24e164]:
+            - img "Search banner image" [ref=f24e165]
+            - generic [ref=f24e169]:
+              - link "返回「API 和服務」" [ref=f24e173] [cursor=pointer]:
+                - /url: /apis
+              - heading "API 程式庫" [level=1] [ref=f24e179]
+            - generic [ref=f24e182]:
+              - generic [ref=f24e183]: 歡迎使用 API 程式庫
+              - generic [ref=f24e184]: API 程式庫提供說明文件、連結和智慧搜尋功能。
+              - combobox "API 程式庫的標題文字" [active] [ref=f24e197]
+          - generic [ref=f24e199]:
+            - img "資訊" [ref=f24e200]
+            - generic [ref=f24e205]:
+              - text: Vertex AI 現已改名為 Gemini Enterprise Agent Platform，詳情請參閱
+              - link "網誌公告文章 外部連結 (在新視窗中開啟)" [ref=f24e206] [cursor=pointer]:
+                - /url: https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform?hl=zh_TW
+                - text: 網誌公告文章
+                - img "外部連結 (在新視窗中開啟)" [ref=f24e207]
+              - text: 。
+          - generic [ref=f24e210]:
+            - generic [ref=f24e213]:
+              - region [ref=f24e216]:
+                - generic [ref=f24e217]:
+                  - heading "前往所有地圖的解決方案" [level=2] [ref=f24e218]: 地圖
+                  - link "查看全部 (32 項)" [ref=f24e219] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:maps
+                - generic [ref=f24e221]:
+                  - button "向右捲動" [ref=f24e222] [cursor=pointer]
+                  - list [ref=f24e227]:
+                    - listitem [ref=f24e228]:
+                      - generic [ref=f24e229]:
+                        - generic [ref=f24e230]:
+                          - heading [level=3] [ref=f24e233]:
+                            - link "Maps SDK for Android：Maps for your native Android app." [ref=f24e234] [cursor=pointer]:
+                              - /url: /apis/library/maps-android-backend.googleapis.com
+                              - text: Maps SDK for Android
+                          - generic [ref=f24e235]: Google
+                        - paragraph [ref=f24e238]: Maps for your native Android app.
+                    - listitem [ref=f24e240]:
+                      - generic [ref=f24e241]:
+                        - generic [ref=f24e242]:
+                          - heading [level=3] [ref=f24e245]:
+                            - link "Maps SDK for iOS：Maps for your native iOS app." [ref=f24e246] [cursor=pointer]:
+                              - /url: /apis/library/maps-ios-backend.googleapis.com
+                              - text: Maps SDK for iOS
+                          - generic [ref=f24e247]: Google
+                        - paragraph [ref=f24e250]: Maps for your native iOS app.
+                    - listitem [ref=f24e252]:
+                      - generic [ref=f24e253]:
+                        - generic [ref=f24e254]:
+                          - heading [level=3] [ref=f24e257]:
+                            - link "Maps JavaScript API：Maps for your website" [ref=f24e258] [cursor=pointer]:
+                              - /url: /apis/library/maps-backend.googleapis.com
+                              - text: Maps JavaScript API
+                          - generic [ref=f24e259]: Google
+                        - paragraph [ref=f24e262]: Maps for your website
+                    - listitem [ref=f24e264]:
+                      - generic [ref=f24e265]:
+                        - generic [ref=f24e266]:
+                          - heading [level=3] [ref=f24e269]:
+                            - link "Places API：Get detailed information about 100 million places" [ref=f24e270] [cursor=pointer]:
+                              - /url: /apis/library/places-backend.googleapis.com
+                              - text: Places API
+                          - generic [ref=f24e271]: Google Enterprise API
+                        - paragraph [ref=f24e274]: Get detailed information about 100 million places
+                    - listitem [ref=f24e276]:
+                      - generic [ref=f24e277]:
+                        - generic [ref=f24e278]:
+                          - heading [level=3] [ref=f24e281]:
+                            - link "Roads API：Snap-to-road functionality to accurately trace GPS breadcrumbs." [ref=f24e282] [cursor=pointer]:
+                              - /url: /apis/library/roads.googleapis.com
+                              - text: Roads API
+                          - generic [ref=f24e283]: Google Enterprise API
+                        - paragraph [ref=f24e286]: Snap-to-road functionality to accurately trace GPS breadcrumbs.
+                    - listitem [ref=f24e288]:
+                      - generic [ref=f24e289]:
+                        - generic [ref=f24e290]:
+                          - heading [level=3] [ref=f24e293]:
+                            - link "Directions API：Directions between multiple locations." [ref=f24e294] [cursor=pointer]:
+                              - /url: /apis/library/directions-backend.googleapis.com
+                              - text: Directions API
+                          - generic [ref=f24e295]: Google Enterprise API
+                        - paragraph [ref=f24e298]: Directions between multiple locations.
+              - region [ref=f24e302]:
+                - generic [ref=f24e303]:
+                  - heading "前往所有機器學習的解決方案" [level=2] [ref=f24e304]: 機器學習
+                  - link "查看全部 (16 項)" [ref=f24e305] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:machine-learning
+                - generic [ref=f24e307]:
+                  - button "向右捲動" [ref=f24e308] [cursor=pointer]
+                  - list [ref=f24e313]:
+                    - listitem [ref=f24e314]:
+                      - generic [ref=f24e315]:
+                        - generic [ref=f24e316]:
+                          - heading [level=3] [ref=f24e319]:
+                            - link "Dialogflow API：Builds conversational interfaces" [ref=f24e320] [cursor=pointer]:
+                              - /url: /apis/library/dialogflow.googleapis.com
+                              - text: Dialogflow API
+                          - generic [ref=f24e321]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e323] [cursor=pointer]
+                        - paragraph [ref=f24e329]: Builds conversational interfaces
+                    - listitem [ref=f24e331]:
+                      - generic [ref=f24e332]:
+                        - generic [ref=f24e333]:
+                          - heading [level=3] [ref=f24e336]:
+                            - link "Cloud Vision API：Image Content Analysis" [ref=f24e337] [cursor=pointer]:
+                              - /url: /apis/library/vision.googleapis.com
+                              - text: Cloud Vision API
+                          - generic [ref=f24e338]: Google Enterprise API
+                        - paragraph [ref=f24e341]: Image Content Analysis
+                    - listitem [ref=f24e343]:
+                      - generic [ref=f24e344]:
+                        - generic [ref=f24e345]:
+                          - heading [level=3] [ref=f24e348]:
+                            - link "Cloud Natural Language API：Provides natural language understanding technologies, such as sentiment analysis, entity…" [ref=f24e349] [cursor=pointer]:
+                              - /url: /apis/library/language.googleapis.com
+                              - text: Cloud Natural Language API
+                          - generic [ref=f24e350]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e352] [cursor=pointer]
+                        - paragraph [ref=f24e358]: Provides natural language understanding technologies, such as sentiment analysis, entity…
+                    - listitem [ref=f24e360]:
+                      - generic [ref=f24e361]:
+                        - generic [ref=f24e362]:
+                          - heading [level=3] [ref=f24e365]:
+                            - link "Cloud Speech-to-Text API：Speech recognition" [ref=f24e366] [cursor=pointer]:
+                              - /url: /apis/library/speech.googleapis.com
+                              - text: Cloud Speech-to-Text API
+                          - generic [ref=f24e367]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e369] [cursor=pointer]
+                        - paragraph [ref=f24e375]: Speech recognition
+                    - listitem [ref=f24e377]:
+                      - generic [ref=f24e378]:
+                        - generic [ref=f24e379]:
+                          - heading [level=3] [ref=f24e382]:
+                            - link "Cloud Translation API：Integrates text translation into your website or application." [ref=f24e383] [cursor=pointer]:
+                              - /url: /apis/library/translate.googleapis.com
+                              - text: Cloud Translation API
+                          - generic [ref=f24e384]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e386] [cursor=pointer]
+                        - paragraph [ref=f24e392]: Integrates text translation into your website or application.
+                    - listitem [ref=f24e394]:
+                      - generic [ref=f24e395]:
+                        - generic [ref=f24e396]:
+                          - heading [level=3] [ref=f24e399]:
+                            - link "AI Platform Training & Prediction API：An API to enable creating and using machine learning models." [ref=f24e400] [cursor=pointer]:
+                              - /url: /apis/library/ml.googleapis.com
+                              - text: AI Platform Training & Prediction API
+                          - generic [ref=f24e401]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e403] [cursor=pointer]
+                        - paragraph [ref=f24e409]: An API to enable creating and using machine learning models.
+                    - listitem [ref=f24e411]:
+                      - generic [ref=f24e412]:
+                        - generic [ref=f24e413]:
+                          - heading [level=3] [ref=f24e416]:
+                            - link "Cloud Video Intelligence API：Detects objects, explicit content, and scene changes in videos. It also specifies the region for…" [ref=f24e417] [cursor=pointer]:
+                              - /url: /apis/library/videointelligence.googleapis.com
+                              - text: Cloud Video Intelligence API
+                          - generic [ref=f24e418]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e420] [cursor=pointer]
+                        - paragraph [ref=f24e426]: Detects objects, explicit content, and scene changes in videos. It also specifies the region for…
+              - region [ref=f24e430]:
+                - generic [ref=f24e431]:
+                  - heading "前往所有Google Workspace的解決方案" [level=2] [ref=f24e432]: Google Workspace
+                  - link "查看全部 (32 項)" [ref=f24e433] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:gsuite
+                - generic [ref=f24e435]:
+                  - button "向右捲動" [ref=f24e436] [cursor=pointer]
+                  - list [ref=f24e441]:
+                    - listitem [ref=f24e442]:
+                      - generic [ref=f24e443]:
+                        - generic [ref=f24e444]:
+                          - heading [level=3] [ref=f24e447]:
+                            - link "Google Drive API：Create and manage resources in Google Drive." [ref=f24e448] [cursor=pointer]:
+                              - /url: /apis/library/drive.googleapis.com
+                              - text: Google Drive API
+                          - generic [ref=f24e449]: Google Enterprise API
+                        - paragraph [ref=f24e452]: Create and manage resources in Google Drive.
+                    - listitem [ref=f24e454]:
+                      - generic [ref=f24e455]:
+                        - generic [ref=f24e456]:
+                          - heading [level=3] [ref=f24e459]:
+                            - link "Google Calendar API：Manage calendars and events in Google Calendar." [ref=f24e460] [cursor=pointer]:
+                              - /url: /apis/library/calendar-json.googleapis.com
+                              - text: Google Calendar API
+                          - generic [ref=f24e461]: Google Enterprise API
+                        - paragraph [ref=f24e464]: Manage calendars and events in Google Calendar.
+                    - listitem [ref=f24e466]:
+                      - generic [ref=f24e467]:
+                        - generic [ref=f24e468]:
+                          - heading [level=3] [ref=f24e471]:
+                            - link "Gmail API：View and manage Gmail mailbox data." [ref=f24e472] [cursor=pointer]:
+                              - /url: /apis/library/gmail.googleapis.com
+                              - text: Gmail API
+                          - generic [ref=f24e473]: Google Enterprise API
+                        - paragraph [ref=f24e476]: View and manage Gmail mailbox data.
+                    - listitem [ref=f24e478]:
+                      - generic [ref=f24e479]:
+                        - generic [ref=f24e480]:
+                          - heading [level=3] [ref=f24e483]:
+                            - link "Google Sheets API：Read and write Google Sheets data" [ref=f24e484] [cursor=pointer]:
+                              - /url: /apis/library/sheets.googleapis.com
+                              - text: Google Sheets API
+                          - generic [ref=f24e485]: Google Enterprise API
+                        - paragraph [ref=f24e488]: Read and write Google Sheets data
+                    - listitem [ref=f24e490]:
+                      - generic [ref=f24e491]:
+                        - generic [ref=f24e492]:
+                          - heading [level=3] [ref=f24e495]:
+                            - link "Google Workspace Marketplace SDK：Publish applications to the Google Workspace Marketplace." [ref=f24e496] [cursor=pointer]:
+                              - /url: /apis/library/appsmarket-component.googleapis.com
+                              - text: Google Workspace Marketplace SDK
+                          - generic [ref=f24e497]: Google
+                        - paragraph [ref=f24e500]: Publish applications to the Google Workspace Marketplace.
+                    - listitem [ref=f24e502]:
+                      - generic [ref=f24e503]:
+                        - generic [ref=f24e504]:
+                          - heading [level=3] [ref=f24e507]:
+                            - link "Admin SDK API：Manage Google Workspace account resources and audit usage." [ref=f24e508] [cursor=pointer]:
+                              - /url: /apis/library/admin.googleapis.com
+                              - text: Admin SDK API
+                          - generic [ref=f24e509]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e511] [cursor=pointer]
+                        - paragraph [ref=f24e517]: Manage Google Workspace account resources and audit usage.
+                    - listitem [ref=f24e519]:
+                      - generic [ref=f24e520]:
+                        - generic [ref=f24e521]:
+                          - heading [level=3] [ref=f24e524]:
+                            - link "CalDAV API：Manage calendars and events in Google Calendar using the CalDAV protocol." [ref=f24e525] [cursor=pointer]:
+                              - /url: /apis/library/caldav.googleapis.com
+                              - text: CalDAV API
+                          - generic [ref=f24e526]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e528] [cursor=pointer]
+                        - paragraph [ref=f24e534]: Manage calendars and events in Google Calendar using the CalDAV protocol.
+                    - listitem [ref=f24e536]:
+                      - generic [ref=f24e537]:
+                        - generic [ref=f24e538]:
+                          - heading [level=3] [ref=f24e541]:
+                            - link "Google Slides API：Read and write Google Slides presentations" [ref=f24e542] [cursor=pointer]:
+                              - /url: /apis/library/slides.googleapis.com
+                              - text: Google Slides API
+                          - generic [ref=f24e543]: Google Enterprise API
+                        - paragraph [ref=f24e546]: Read and write Google Slides presentations
+              - region [ref=f24e550]:
+                - generic [ref=f24e551]:
+                  - heading "前往所有YouTube的解決方案" [level=2] [ref=f24e552]: YouTube
+                  - link "查看全部 (3 項)" [ref=f24e553] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:youtube
+                - generic [ref=f24e555]:
+                  - button "向右捲動" [ref=f24e556] [cursor=pointer]
+                  - list [ref=f24e561]:
+                    - listitem [ref=f24e562]:
+                      - generic [ref=f24e563]:
+                        - generic [ref=f24e564]:
+                          - heading [level=3] [ref=f24e567]:
+                            - link "YouTube Data API v3：The YouTube Data API v3 is an API that provides access to YouTube data, such as videos, playlists,…" [ref=f24e568] [cursor=pointer]:
+                              - /url: /apis/library/youtube.googleapis.com
+                              - text: YouTube Data API v3
+                          - generic [ref=f24e569]: Google
+                        - paragraph [ref=f24e572]: The YouTube Data API v3 is an API that provides access to YouTube data, such as videos, playlists,…
+                    - listitem [ref=f24e574]:
+                      - generic [ref=f24e575]:
+                        - generic [ref=f24e576]:
+                          - heading [level=3] [ref=f24e579]:
+                            - link "YouTube Analytics API：Retrieves your YouTube Analytics data." [ref=f24e580] [cursor=pointer]:
+                              - /url: /apis/library/youtubeanalytics.googleapis.com
+                              - text: YouTube Analytics API
+                          - generic [ref=f24e581]: Google
+                        - paragraph [ref=f24e584]: Retrieves your YouTube Analytics data.
+                    - listitem [ref=f24e586]:
+                      - generic [ref=f24e587]:
+                        - generic [ref=f24e588]:
+                          - heading [level=3] [ref=f24e591]:
+                            - link "YouTube Reporting API：Schedules reporting jobs containing your YouTube Analytics data and downloads the resulting bulk…" [ref=f24e592] [cursor=pointer]:
+                              - /url: /apis/library/youtubereporting.googleapis.com
+                              - text: YouTube Reporting API
+                          - generic [ref=f24e593]: Google
+                        - paragraph [ref=f24e596]: Schedules reporting jobs containing your YouTube Analytics data and downloads the resulting bulk…
+              - region [ref=f24e600]:
+                - generic [ref=f24e601]:
+                  - heading "前往所有社交的解決方案" [level=2] [ref=f24e602]: 社交
+                  - link "查看全部 (4 項)" [ref=f24e603] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:social
+                - generic [ref=f24e605]:
+                  - button "向右捲動" [ref=f24e606] [cursor=pointer]
+                  - list [ref=f24e611]:
+                    - listitem [ref=f24e612]:
+                      - generic [ref=f24e613]:
+                        - generic [ref=f24e614]:
+                          - heading [level=3] [ref=f24e617]:
+                            - link "Google+ API：The Google+ API enables developers to build on top of the Google+ platform." [ref=f24e618] [cursor=pointer]:
+                              - /url: /apis/library/plus.googleapis.com
+                              - text: Google+ API
+                          - generic [ref=f24e619]: Google
+                        - paragraph [ref=f24e622]: The Google+ API enables developers to build on top of the Google+ platform.
+                    - listitem [ref=f24e624]:
+                      - generic [ref=f24e625]:
+                        - generic [ref=f24e626]:
+                          - heading [level=3] [ref=f24e629]:
+                            - link "Blogger API：The Blogger API provides access to posts, comments and pages of a Blogger blog." [ref=f24e630] [cursor=pointer]:
+                              - /url: /apis/library/blogger.googleapis.com
+                              - text: Blogger API
+                          - generic [ref=f24e631]: Google
+                        - paragraph [ref=f24e634]: The Blogger API provides access to posts, comments and pages of a Blogger blog.
+                    - listitem [ref=f24e636]:
+                      - generic [ref=f24e637]:
+                        - generic [ref=f24e638]:
+                          - heading [level=3] [ref=f24e641]:
+                            - link "Google+ Domains API：The Google+ Domains API enables developers to build on top of the Google+ platform for Google Apps…" [ref=f24e642] [cursor=pointer]:
+                              - /url: /apis/library/plusdomains.googleapis.com
+                              - text: Google+ Domains API
+                          - generic [ref=f24e643]: Google
+                        - paragraph [ref=f24e646]: The Google+ Domains API enables developers to build on top of the Google+ platform for Google Apps…
+                    - listitem [ref=f24e648]:
+                      - generic [ref=f24e649]:
+                        - generic [ref=f24e650]:
+                          - heading [level=3] [ref=f24e653]:
+                            - link "Google People API：Provides access to information about profiles and contacts." [ref=f24e654] [cursor=pointer]:
+                              - /url: /apis/library/people.googleapis.com
+                              - text: Google People API
+                          - generic [ref=f24e655]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e657] [cursor=pointer]
+                        - paragraph [ref=f24e663]: Provides access to information about profiles and contacts.
+                    - listitem [ref=f24e665]:
+                      - generic [ref=f24e666]:
+                        - generic [ref=f24e667]:
+                          - heading [level=3] [ref=f24e670]:
+                            - link "Contacts API：The Contacts API lets you view, edit, and organize your contacts." [ref=f24e671] [cursor=pointer]:
+                              - /url: /apis/library/contacts.googleapis.com
+                              - text: Contacts API
+                          - generic [ref=f24e672]: Google
+                        - paragraph [ref=f24e675]: The Contacts API lets you view, edit, and organize your contacts.
+              - region [ref=f24e679]:
+                - generic [ref=f24e680]:
+                  - heading "前往所有廣告的解決方案" [level=2] [ref=f24e681]: 廣告
+                  - link "查看全部 (14 項)" [ref=f24e682] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:advertising
+                - generic [ref=f24e684]:
+                  - button "向右捲動" [ref=f24e685] [cursor=pointer]
+                  - list [ref=f24e690]:
+                    - listitem [ref=f24e691]:
+                      - generic [ref=f24e692]:
+                        - generic [ref=f24e693]:
+                          - heading [level=3] [ref=f24e696]:
+                            - link "AdSense Management API：The AdSense Management API allows publishers to access their inventory and run earnings and…" [ref=f24e697] [cursor=pointer]:
+                              - /url: /apis/library/adsense.googleapis.com
+                              - text: AdSense Management API
+                          - generic [ref=f24e698]: Google
+                        - paragraph [ref=f24e701]: The AdSense Management API allows publishers to access their inventory and run earnings and…
+                    - listitem [ref=f24e703]:
+                      - generic [ref=f24e704]:
+                        - generic [ref=f24e705]:
+                          - heading [level=3] [ref=f24e708]:
+                            - link "Campaign Manager 360 API：Manage your Campaign Manager 360 ad campaigns and reports" [ref=f24e709] [cursor=pointer]:
+                              - /url: /apis/library/dfareporting.googleapis.com
+                              - text: Campaign Manager 360 API
+                          - generic [ref=f24e710]: Google
+                        - paragraph [ref=f24e713]: Manage your Campaign Manager 360 ad campaigns and reports
+                    - listitem [ref=f24e715]:
+                      - generic [ref=f24e716]:
+                        - generic [ref=f24e717]:
+                          - heading [level=3] [ref=f24e720]:
+                            - link "Ad Exchange Seller API：Programmatically access Ad Exchange publisher inventory." [ref=f24e721] [cursor=pointer]:
+                              - /url: /apis/library/adexchangeseller.googleapis.com
+                              - text: Ad Exchange Seller API
+                          - generic [ref=f24e722]: Google
+                        - paragraph [ref=f24e725]: Programmatically access Ad Exchange publisher inventory.
+                    - listitem [ref=f24e727]:
+                      - generic [ref=f24e728]:
+                        - generic [ref=f24e729]:
+                          - heading [level=3] [ref=f24e732]:
+                            - link "Ad Exchange Buyer API II：Build applications that interact directly with the DoubleClick Ad Exchange platform." [ref=f24e733] [cursor=pointer]:
+                              - /url: /apis/library/adexchangebuyer.googleapis.com
+                              - text: Ad Exchange Buyer API II
+                          - generic [ref=f24e734]: Google
+                        - paragraph [ref=f24e737]: Build applications that interact directly with the DoubleClick Ad Exchange platform.
+                    - listitem [ref=f24e739]:
+                      - generic [ref=f24e740]:
+                        - generic [ref=f24e741]:
+                          - heading [level=3] [ref=f24e744]:
+                            - link "Search Ads 360 API：Report and modify your advertising data in Search Ads 360" [ref=f24e745] [cursor=pointer]:
+                              - /url: /apis/library/doubleclicksearch.googleapis.com
+                              - text: Search Ads 360 API
+                          - generic [ref=f24e746]: Google
+                        - paragraph [ref=f24e749]: Report and modify your advertising data in Search Ads 360
+                    - listitem [ref=f24e751]:
+                      - generic [ref=f24e752]:
+                        - generic [ref=f24e753]:
+                          - heading [level=3] [ref=f24e756]:
+                            - link "DoubleClick Bid Manager API：Manage your DoubleClick Bid Manager ad campaigns and reports." [ref=f24e757] [cursor=pointer]:
+                              - /url: /apis/library/doubleclickbidmanager.googleapis.com
+                              - text: DoubleClick Bid Manager API
+                          - generic [ref=f24e758]: Google
+                        - paragraph [ref=f24e761]: Manage your DoubleClick Bid Manager ad campaigns and reports.
+                    - listitem [ref=f24e763]:
+                      - generic [ref=f24e764]:
+                        - generic [ref=f24e765]:
+                          - heading [level=3] [ref=f24e768]:
+                            - link "Content API for Shopping：This API is deprecated. Please use Merchant API instead:…" [ref=f24e769] [cursor=pointer]:
+                              - /url: /apis/library/shoppingcontent.googleapis.com
+                              - text: Content API for Shopping
+                          - generic [ref=f24e770]: Google
+                        - paragraph [ref=f24e773]: This API is deprecated. Please use Merchant API instead:…
+                    - listitem [ref=f24e775]:
+                      - generic [ref=f24e776]:
+                        - generic [ref=f24e777]:
+                          - heading [level=3] [ref=f24e780]:
+                            - link "Travel Partner API：The Travel Partner API provides you with a RESTful interface to the Google Hotel Center platform.…" [ref=f24e781] [cursor=pointer]:
+                              - /url: /apis/library/travelpartner.googleapis.com
+                              - text: Travel Partner API
+                          - generic [ref=f24e782]: Google
+                        - paragraph [ref=f24e785]: The Travel Partner API provides you with a RESTful interface to the Google Hotel Center platform.…
+              - region [ref=f24e789]:
+                - generic [ref=f24e790]:
+                  - heading "前往所有行動的解決方案" [level=2] [ref=f24e791]: 行動
+                  - link "查看全部 (12 項)" [ref=f24e792] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:mobile
+                - generic [ref=f24e794]:
+                  - button "向右捲動" [ref=f24e795] [cursor=pointer]
+                  - list [ref=f24e800]:
+                    - listitem [ref=f24e801]:
+                      - generic [ref=f24e802]:
+                        - generic [ref=f24e803]:
+                          - heading [level=3] [ref=f24e806]:
+                            - link "Google Play Games Services API：Start integrating popular gaming features in your mobile games by using the Google Play games…" [ref=f24e807] [cursor=pointer]:
+                              - /url: /apis/library/games.googleapis.com
+                              - text: Google Play Games Services API
+                          - generic [ref=f24e808]: Google
+                        - paragraph [ref=f24e811]: Start integrating popular gaming features in your mobile games by using the Google Play games…
+                    - listitem [ref=f24e813]:
+                      - generic [ref=f24e814]:
+                        - generic [ref=f24e815]:
+                          - heading [level=3] [ref=f24e818]:
+                            - link "Google Play Android Developer API：Manage your app in the Google Play Store" [ref=f24e819] [cursor=pointer]:
+                              - /url: /apis/library/androidpublisher.googleapis.com
+                              - text: Google Play Android Developer API
+                          - generic [ref=f24e820]: Google
+                        - paragraph [ref=f24e823]: Manage your app in the Google Play Store
+                    - listitem [ref=f24e825]:
+                      - generic [ref=f24e826]:
+                        - generic [ref=f24e827]:
+                          - heading [level=3] [ref=f24e830]:
+                            - link "Fitness API：The Fitness API for managing users' fitness tracking data." [ref=f24e831] [cursor=pointer]:
+                              - /url: /apis/library/fitness.googleapis.com
+                              - text: Fitness API
+                          - generic [ref=f24e832]: Google
+                        - paragraph [ref=f24e835]: The Fitness API for managing users' fitness tracking data.
+                    - listitem [ref=f24e837]:
+                      - generic [ref=f24e838]:
+                        - generic [ref=f24e839]:
+                          - heading [level=3] [ref=f24e842]:
+                            - link "Google Play Custom App Publishing API：API to create and publish custom Android apps" [ref=f24e843] [cursor=pointer]:
+                              - /url: /apis/library/playcustomapp.googleapis.com
+                              - text: Google Play Custom App Publishing API
+                          - generic [ref=f24e844]: Google
+                        - paragraph [ref=f24e847]: API to create and publish custom Android apps
+                    - listitem [ref=f24e849]:
+                      - generic [ref=f24e850]:
+                        - generic [ref=f24e851]:
+                          - heading [level=3] [ref=f24e854]:
+                            - link "Google Play Games Services Publishing API：The Google Play Game Services Publishing API allows developers to configure their games in Game…" [ref=f24e855] [cursor=pointer]:
+                              - /url: /apis/library/gamesconfiguration.googleapis.com
+                              - text: Google Play Games Services Publishing API
+                          - generic [ref=f24e856]: Google
+                        - paragraph [ref=f24e859]: The Google Play Game Services Publishing API allows developers to configure their games in Game…
+                    - listitem [ref=f24e861]:
+                      - generic [ref=f24e862]:
+                        - generic [ref=f24e863]:
+                          - heading [level=3] [ref=f24e866]:
+                            - link "Awareness API：Awareness Api is a unified context platform that enables apps to become contextual." [ref=f24e867] [cursor=pointer]:
+                              - /url: /apis/library/usercontext.googleapis.com
+                              - text: Awareness API
+                          - generic [ref=f24e868]: Google
+                        - paragraph [ref=f24e871]: Awareness Api is a unified context platform that enables apps to become contextual.
+                    - listitem [ref=f24e873]:
+                      - generic [ref=f24e874]:
+                        - generic [ref=f24e875]:
+                          - heading [level=3] [ref=f24e878]:
+                            - link "Android Management API：The Android Management API provides remote enterprise management of Android devices and apps." [ref=f24e879] [cursor=pointer]:
+                              - /url: /apis/library/androidmanagement.googleapis.com
+                              - text: Android Management API
+                          - generic [ref=f24e880]: Google
+                        - paragraph [ref=f24e883]: The Android Management API provides remote enterprise management of Android devices and apps.
+              - region [ref=f24e887]:
+                - generic [ref=f24e888]:
+                  - heading "前往所有Google Enterprise API的解決方案" [level=2] [ref=f24e889]: Google Enterprise API
+                  - link "查看全部 (138 項)" [ref=f24e890] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:enterprise-api
+                - generic [ref=f24e892]:
+                  - button "向右捲動" [ref=f24e893] [cursor=pointer]
+                  - list [ref=f24e898]:
+                    - listitem [ref=f24e899]:
+                      - generic [ref=f24e900]:
+                        - generic [ref=f24e901]:
+                          - heading [level=3] [ref=f24e904]:
+                            - link "Compute Engine API：Compute Engine API" [ref=f24e905] [cursor=pointer]:
+                              - /url: /apis/library/compute.googleapis.com
+                              - text: Compute Engine API
+                          - generic [ref=f24e906]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e908] [cursor=pointer]
+                        - paragraph [ref=f24e914]: Compute Engine API
+                    - listitem [ref=f24e916]:
+                      - generic [ref=f24e917]:
+                        - generic [ref=f24e918]:
+                          - heading [level=3] [ref=f24e921]:
+                            - link "Cloud Storage：Google Cloud Storage is a RESTful service for storing and accessing your data on Google's …" [ref=f24e922] [cursor=pointer]:
+                              - /url: /apis/library/storage-component.googleapis.com
+                              - text: Cloud Storage
+                          - generic [ref=f24e923]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e925] [cursor=pointer]
+                        - paragraph [ref=f24e931]: Google Cloud Storage is a RESTful service for storing and accessing your data on Google's …
+                    - listitem [ref=f24e933]:
+                      - generic [ref=f24e934]:
+                        - generic [ref=f24e935]:
+                          - heading [level=3] [ref=f24e938]:
+                            - link "Cloud Datastore API：Horizontally Scalable NoSQL Document Database" [ref=f24e939] [cursor=pointer]:
+                              - /url: /apis/library/datastore.googleapis.com
+                              - text: Cloud Datastore API
+                          - generic [ref=f24e940]: Google Enterprise API
+                        - paragraph [ref=f24e943]: Horizontally Scalable NoSQL Document Database
+                    - listitem [ref=f24e945]:
+                      - generic [ref=f24e946]:
+                        - generic [ref=f24e947]:
+                          - heading [level=3] [ref=f24e950]:
+                            - link "Cloud Deployment Manager V2 API：The Google Cloud Deployment Manager v2 API provides services for configuring, deploying,…" [ref=f24e951] [cursor=pointer]:
+                              - /url: /apis/library/deploymentmanager.googleapis.com
+                              - text: Cloud Deployment Manager V2 API
+                          - generic [ref=f24e952]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e954] [cursor=pointer]
+                        - paragraph [ref=f24e960]: The Google Cloud Deployment Manager v2 API provides services for configuring, deploying,…
+                    - listitem [ref=f24e962]:
+                      - generic [ref=f24e963]:
+                        - generic [ref=f24e964]:
+                          - heading [level=3] [ref=f24e967]:
+                            - link "Cloud DNS API：Highly Available Global DNS Network" [ref=f24e968] [cursor=pointer]:
+                              - /url: /apis/library/dns.googleapis.com
+                              - text: Cloud DNS API
+                          - generic [ref=f24e969]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e971] [cursor=pointer]
+                        - paragraph [ref=f24e977]: Highly Available Global DNS Network
+                    - listitem [ref=f24e979]:
+                      - generic [ref=f24e980]:
+                        - generic [ref=f24e981]:
+                          - heading [level=3] [ref=f24e984]:
+                            - link "Cloud Bigtable API：API for reading and writing the contents of Bigtable tables associated with a Google Cloud project." [ref=f24e985] [cursor=pointer]:
+                              - /url: /apis/library/bigtable.googleapis.com
+                              - text: Cloud Bigtable API
+                          - generic [ref=f24e986]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e988] [cursor=pointer]
+                        - paragraph [ref=f24e994]: API for reading and writing the contents of Bigtable tables associated with a Google Cloud project.
+                    - listitem [ref=f24e996]:
+                      - generic [ref=f24e997]:
+                        - generic [ref=f24e998]:
+                          - heading [level=3] [ref=f24e1001]:
+                            - link "Service Management API：Google Service Management allows service producers to publish their services on Google Cloud…" [ref=f24e1002] [cursor=pointer]:
+                              - /url: /apis/library/servicemanagement.googleapis.com
+                              - text: Service Management API
+                          - generic [ref=f24e1003]:
+                            - text: Google Enterprise API
+                            - button "彈出式說明" [ref=f24e1005] [cursor=pointer]
+                        - paragraph [ref=f24e1011]: Google Service Management allows service producers to publish their services on Google Cloud…
+              - region [ref=f24e1015]:
+                - generic [ref=f24e1016]:
+                  - heading "前往所有其他的解決方案" [level=2] [ref=f24e1017]: 其他
+                  - link "查看全部 (71 項)" [ref=f24e1018] [cursor=pointer]:
+                    - /url: /apis/library/browse?filter=category:others
+                - generic [ref=f24e1020]:
+                  - button "向右捲動" [ref=f24e1021] [cursor=pointer]
+                  - list [ref=f24e1026]:
+                    - listitem [ref=f24e1027]:
+                      - generic [ref=f24e1028]:
+                        - generic [ref=f24e1029]:
+                          - heading [level=3] [ref=f24e1032]:
+                            - link "Google Analytics API：The Analytics API provides access to Analytics configuration and report data." [ref=f24e1033] [cursor=pointer]:
+                              - /url: /apis/library/analytics.googleapis.com
+                              - text: Google Analytics API
+                          - generic [ref=f24e1034]: Google
+                        - paragraph [ref=f24e1037]: The Analytics API provides access to Analytics configuration and report data.
+                    - listitem [ref=f24e1039]:
+                      - generic [ref=f24e1040]:
+                        - generic [ref=f24e1041]:
+                          - heading [level=3] [ref=f24e1044]:
+                            - link "Custom Search API：Retrieve and display search results from Google Custom Search programmatically." [ref=f24e1045] [cursor=pointer]:
+                              - /url: /apis/library/customsearch.googleapis.com
+                              - text: Custom Search API
+                          - generic [ref=f24e1046]: Google
+                        - paragraph [ref=f24e1049]: Retrieve and display search results from Google Custom Search programmatically.
+                    - listitem [ref=f24e1051]:
+                      - generic [ref=f24e1052]:
+                        - generic [ref=f24e1053]:
+                          - heading [level=3] [ref=f24e1056]:
+                            - link "PageSpeed Insights API：Improve your web pages" [ref=f24e1057] [cursor=pointer]:
+                              - /url: /apis/library/pagespeedonline.googleapis.com
+                              - text: PageSpeed Insights API
+                          - generic [ref=f24e1058]: Google
+                        - paragraph [ref=f24e1061]: Improve your web pages
+                    - listitem [ref=f24e1063]:
+                      - generic [ref=f24e1064]:
+                        - generic [ref=f24e1065]:
+                          - heading [level=3] [ref=f24e1068]:
+                            - link "Web Fonts Developer API：The Google Web Fonts Developer API lets you retrieve information about web fonts served by…" [ref=f24e1069] [cursor=pointer]:
+                              - /url: /apis/library/webfonts.googleapis.com
+                              - text: Web Fonts Developer API
+                          - generic [ref=f24e1070]: Google
+                        - paragraph [ref=f24e1073]: The Google Web Fonts Developer API lets you retrieve information about web fonts served by…
+                    - listitem [ref=f24e1075]:
+                      - generic [ref=f24e1076]:
+                        - generic [ref=f24e1077]:
+                          - heading [level=3] [ref=f24e1080]:
+                            - link "Digital Asset Links API：Discovers relationships between online assets such as websites or mobile apps." [ref=f24e1081] [cursor=pointer]:
+                              - /url: /apis/library/digitalassetlinks.googleapis.com
+                              - text: Digital Asset Links API
+                          - generic [ref=f24e1082]: Google
+                        - paragraph [ref=f24e1085]: Discovers relationships between online assets such as websites or mobile apps.
+            - complementary [ref=f24e1087]:
+              - generic [ref=f24e1088]:
+                - generic [ref=f24e1089]:
+                  - generic [ref=f24e1093]: 篩選條件
+                  - textbox "篩選條件" [ref=f24e1097]:
+                    - /placeholder: 篩選類型
+                    - text: 篩選類型
+                - generic [ref=f24e1099]:
+                  - heading [level=3] [ref=f24e1102]:
+                    - button "瀏覽權限" [expanded] [ref=f24e1104]
+                  - generic [ref=f24e1112]:
+                    - link "不公開 (3)" [ref=f24e1113]:
+                      - /url: /apis/library/browse?filter=visibility:private
+                      - generic [ref=f24e1115]:
+                        - generic [ref=f24e1116]: 不公開
+                        - generic [ref=f24e1118]: (3)
+                    - link "公開 (530)" [ref=f24e1119]:
+                      - /url: /apis/library/browse?filter=visibility:public
+                      - generic [ref=f24e1121]:
+                        - generic [ref=f24e1122]: 公開
+                        - generic [ref=f24e1124]: (530)
+                - generic [ref=f24e1126]:
+                  - heading [level=3] [ref=f24e1129]:
+                    - button "類別" [expanded] [ref=f24e1131]
+                  - generic [ref=f24e1139]:
+                    - link "DevOps (31)" [ref=f24e1140]:
+                      - /url: /apis/library/browse?filter=category:developer-tools
+                      - generic [ref=f24e1142]:
+                        - generic [ref=f24e1143]: DevOps
+                        - generic [ref=f24e1145]: (31)
+                    - link "Firebase (7)" [ref=f24e1146]:
+                      - /url: /apis/library/browse?filter=category:firebase
+                      - generic [ref=f24e1148]:
+                        - generic [ref=f24e1149]: Firebase
+                        - generic [ref=f24e1151]: (7)
+                    - link "Google Enterprise API (138)" [ref=f24e1152]:
+                      - /url: /apis/library/browse?filter=category:enterprise-api
+                      - generic [ref=f24e1154]:
+                        - generic [ref=f24e1155]: Google Enterprise API
+                        - generic [ref=f24e1157]: (138)
+                    - link "Google Workspace (32)" [ref=f24e1158]:
+                      - /url: /apis/library/browse?filter=category:gsuite
+                      - generic [ref=f24e1160]:
+                        - generic [ref=f24e1161]: Google Workspace
+                        - generic [ref=f24e1163]: (32)
+                    - link "Security Command Center 服務 (2)" [ref=f24e1164]:
+                      - /url: /apis/library/browse?filter=category:security-command-center-services
+                      - generic [ref=f24e1166]:
+                        - generic [ref=f24e1167]: Security Command Center 服務
+                        - generic [ref=f24e1169]: (2)
+                    - link "YouTube (3)" [ref=f24e1170]:
+                      - /url: /apis/library/browse?filter=category:youtube
+                      - generic [ref=f24e1172]:
+                        - generic [ref=f24e1173]: YouTube
+                        - generic [ref=f24e1175]: (3)
+                    - link "代理工具 (1)" [ref=f24e1176]:
+                      - /url: /apis/library/browse?filter=category:agent-tools
+                      - generic [ref=f24e1178]:
+                        - generic [ref=f24e1179]: 代理工具
+                        - generic [ref=f24e1181]: (1)
+                    - link "作業系統 (1)" [ref=f24e1182]:
+                      - /url: /apis/library/browse?filter=category:os
+                      - generic [ref=f24e1184]:
+                        - generic [ref=f24e1185]: 作業系統
+                        - generic [ref=f24e1187]: (1)
+                    - link "儲存 (10)" [ref=f24e1188]:
+                      - /url: /apis/library/browse?filter=category:storage
+                      - generic [ref=f24e1190]:
+                        - generic [ref=f24e1191]: 儲存
+                        - generic [ref=f24e1193]: (10)
+                    - link "其他 (71)" [ref=f24e1194]:
+                      - /url: /apis/library/browse?filter=category:others
+                      - generic [ref=f24e1196]:
+                        - generic [ref=f24e1197]: 其他
+                        - generic [ref=f24e1199]: (71)
+                    - link "區塊鏈 (2)" [ref=f24e1200]:
+                      - /url: /apis/library/browse?filter=category:blockchain
+                      - generic [ref=f24e1202]:
+                        - generic [ref=f24e1203]: 區塊鏈
+                        - generic [ref=f24e1205]: (2)
+                    - link "地圖 (32)" [ref=f24e1206]:
+                      - /url: /apis/library/browse?filter=category:maps
+                      - generic [ref=f24e1208]:
+                        - generic [ref=f24e1209]: 地圖
+                        - generic [ref=f24e1211]: (32)
+                    - link "媒體和娛樂 (1)" [ref=f24e1212]:
+                      - /url: /apis/library/browse?filter=category:media-and-entertainment
+                      - generic [ref=f24e1214]:
+                        - generic [ref=f24e1215]: 媒體和娛樂
+                        - generic [ref=f24e1217]: (1)
+                    - link "安全性 (8)" [ref=f24e1218]:
+                      - /url: /apis/library/browse?filter=category:security
+                      - generic [ref=f24e1220]:
+                        - generic [ref=f24e1221]: 安全性
+                        - generic [ref=f24e1223]: (8)
+                    - link "廣告 (14)" [ref=f24e1224]:
+                      - /url: /apis/library/browse?filter=category:advertising
+                      - generic [ref=f24e1226]:
+                        - generic [ref=f24e1227]: 廣告
+                        - generic [ref=f24e1229]: (14)
+                    - link "數據分析 (11)" [ref=f24e1230]:
+                      - /url: /apis/library/browse?filter=category:analytics
+                      - generic [ref=f24e1232]:
+                        - generic [ref=f24e1233]: 數據分析
+                        - generic [ref=f24e1235]: (11)
+                    - link "機器學習 (16)" [ref=f24e1236]:
+                      - /url: /apis/library/browse?filter=category:machine-learning
+                      - generic [ref=f24e1238]:
+                        - generic [ref=f24e1239]: 機器學習
+                        - generic [ref=f24e1241]: (16)
+                    - link "永續發展 (4)" [ref=f24e1242]:
+                      - /url: /apis/library/browse?filter=category:climate
+                      - generic [ref=f24e1244]:
+                        - generic [ref=f24e1245]: 永續發展
+                        - generic [ref=f24e1247]: (4)
+                    - link "監控 (6)" [ref=f24e1248]:
+                      - /url: /apis/library/browse?filter=category:monitoring
+                      - generic [ref=f24e1250]:
+                        - generic [ref=f24e1251]: 監控
+                        - generic [ref=f24e1253]: (6)
+                    - link "社交 (4)" [ref=f24e1254]:
+                      - /url: /apis/library/browse?filter=category:social
+                      - generic [ref=f24e1256]:
+                        - generic [ref=f24e1257]: 社交
+                        - generic [ref=f24e1259]: (4)
+                    - link "網誌與 CMS (1)" [ref=f24e1260]:
+                      - /url: /apis/library/browse?filter=category:blog-cms
+                      - generic [ref=f24e1262]:
+                        - generic [ref=f24e1263]: 網誌與 CMS
+                        - generic [ref=f24e1265]: (1)
+                    - link "網路 (8)" [ref=f24e1266]:
+                      - /url: /apis/library/browse?filter=category:networking
+                      - generic [ref=f24e1268]:
+                        - generic [ref=f24e1269]: 網路
+                        - generic [ref=f24e1271]: (8)
+                    - link "行動 (12)" [ref=f24e1272]:
+                      - /url: /apis/library/browse?filter=category:mobile
+                      - generic [ref=f24e1274]:
+                        - generic [ref=f24e1275]: 行動
+                        - generic [ref=f24e1277]: (12)
+                    - link "評估 (1)" [ref=f24e1278]:
+                      - /url: /apis/library/browse?filter=category:assessment
+                      - generic [ref=f24e1280]:
+                        - generic [ref=f24e1281]: 評估
+                        - generic [ref=f24e1283]: (1)
+                    - link "資料 (25)" [ref=f24e1284]:
+                      - /url: /apis/library/browse?filter=category:data
+                      - generic [ref=f24e1286]:
+                        - generic [ref=f24e1287]: 資料
+                        - generic [ref=f24e1289]: (25)
+                    - link "運算 (13)" [ref=f24e1290]:
+                      - /url: /apis/library/browse?filter=category:compute
+                      - generic [ref=f24e1292]:
+                        - generic [ref=f24e1293]: 運算
+                        - generic [ref=f24e1295]: (13)
+                    - link "零售 (1)" [ref=f24e1296]:
+                      - /url: /apis/library/browse?filter=category:retail
+                      - generic [ref=f24e1298]:
+                        - generic [ref=f24e1299]: 零售
+                        - generic [ref=f24e1301]: (1)
+                - generic [ref=f24e1303]:
+                  - heading [level=3] [ref=f24e1306]:
+                    - button "產業別" [expanded] [ref=f24e1308]
+                  - generic [ref=f24e1316]:
+                    - link "媒體娛樂 (14)" [ref=f24e1317]:
+                      - /url: /apis/library/browse?filter=industry:industry-media-and-entertainment
+                      - generic [ref=f24e1319]:
+                        - generic [ref=f24e1320]: 媒體娛樂
+                        - generic [ref=f24e1322]: (14)
+                    - link "醫療照護與生命科學 (2)" [ref=f24e1323]:
+                      - /url: /apis/library/browse?filter=industry:healthcare-and-life-sciences
+                      - generic [ref=f24e1325]:
+                        - generic [ref=f24e1326]: 醫療照護與生命科學
+                        - generic [ref=f24e1328]: (2)
+                    - link "零售與民生消費用品業 (1)" [ref=f24e1329]:
+                      - /url: /apis/library/browse?filter=industry:retail-and-cpg
+                      - generic [ref=f24e1331]:
+                        - generic [ref=f24e1332]: 零售與民生消費用品業
+                        - generic [ref=f24e1334]: (1)
+          - link "Google Cloud Marketplace 服務條款 外部連結 (在新視窗中開啟)" [ref=f24e1339] [cursor=pointer]:
+            - /url: https://cloud.google.com/terms/marketplace/launcher?hl=zh_TW
+            - text: Google Cloud Marketplace 服務條款
+            - img "外部連結 (在新視窗中開啟)" [ref=f24e1340]
+  - iframe [ref=f24e136]:
+    
+  - iframe [ref=f24e1344]:
+    
+  - iframe [ref=f24e1345]:
+    

@@ -1,0 +1,215 @@
+- generic [ref=f57e1]:
+  - banner [ref=f57e2]:
+    - generic [ref=f57e3]:
+      - link [ref=f57e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f57e8]:
+        - link "Chat" [ref=f57e9] [cursor=pointer]:
+          - /url: /chat
+        - link "Image Generator" [ref=f57e10] [cursor=pointer]:
+          - /url: /machine-learning-model/text2img
+        - link "Video" [ref=f57e11] [cursor=pointer]:
+          - /url: /video
+        - link "Music" [ref=f57e12] [cursor=pointer]:
+          - /url: /music
+        - link "Voice Chat" [ref=f57e13] [cursor=pointer]:
+          - /url: /voice
+        - link "Photo Editor" [ref=f57e14] [cursor=pointer]:
+          - /url: /machine-learning-model/image-editor
+        - generic [ref=f57e15] [cursor=pointer]: Login
+        - button "Toggle theme" [ref=f57e16] [cursor=pointer]
+        - navigation [ref=f57e19]:
+          - list [ref=f57e20]:
+            - listitem [ref=f57e21]:
+              - button "Menu" [ref=f57e22] [cursor=pointer]:
+                - img "Menu"
+  - generic [ref=f57e23]:
+    - link "DeepAI Pro - More Access to Better AI" [ref=f57e24] [cursor=pointer]:
+      - /url: javascript:void(0);
+    - button "Dismiss announcement" [ref=f57e27] [cursor=pointer]: ×
+  - generic [ref=f57e29]:
+    - heading [level=1] [ref=f57e30] [cursor=pointer]:
+      - img "sparkle" [ref=f57e31]
+      - text: DeepAI
+    - generic [ref=f57e32]:
+      - button "Chat" [ref=f57e33] [cursor=pointer]
+      - button "Image" [ref=f57e34] [cursor=pointer]
+      - button "Video" [ref=f57e35] [cursor=pointer]
+      - button "Music" [ref=f57e36] [cursor=pointer]
+    - generic [ref=f57e37]:
+      - textbox "Ask anything" [active] [ref=f57e38]
+      - generic [ref=f57e39]:
+        - button "Standard" [ref=f57e41] [cursor=pointer]
+        - button "Attach files" [ref=f57e45] [cursor=pointer]
+      - button "Start Chatting" [disabled] [ref=f57e48]
+    - generic [ref=f57e49]: Answering billions of questions for more than 5% of Americans!
+  - generic [ref=f57e53]: Explore Our AI Generators
+  - generic [ref=f57e54]:
+    - button "All tools" [ref=f57e55] [cursor=pointer]
+    - button "Create" [ref=f57e56] [cursor=pointer]
+    - button "Edit" [ref=f57e57] [cursor=pointer]
+    - button "Chat" [ref=f57e58] [cursor=pointer]
+    - button "Detect" [ref=f57e59] [cursor=pointer]
+    - button "API" [ref=f57e60] [cursor=pointer]
+  - generic [ref=f57e61]:
+    - link "AI Image Generator" [ref=f57e63] [cursor=pointer]:
+      - /url: /machine-learning-model/text2img
+    - link "AI Video Generator" [ref=f57e69] [cursor=pointer]:
+      - /url: /video
+    - link "AI Music Generator" [ref=f57e75] [cursor=pointer]:
+      - /url: /music
+    - link "AI Photo Editor" [ref=f57e81] [cursor=pointer]:
+      - /url: /machine-learning-model/image-editor
+    - link "Background Remover" [ref=f57e87] [cursor=pointer]:
+      - /url: /machine-learning-model/background-remover
+    - link "Colorizer" [ref=f57e93] [cursor=pointer]:
+      - /url: /machine-learning-model/colorizer
+    - link "Super Resolution" [ref=f57e99] [cursor=pointer]:
+      - /url: /machine-learning-model/torch-srgan
+    - link "Image Replace" [ref=f57e105] [cursor=pointer]:
+      - /url: /image-replace
+    - link "Voice Chat" [ref=f57e111] [cursor=pointer]:
+      - /url: /voice
+    - link "AI Chat" [ref=f57e117] [cursor=pointer]:
+      - /url: /chat
+    - link "Math AI" [ref=f57e123] [cursor=pointer]:
+      - /url: /chat/mathematics
+    - link "AI Image Detector" [ref=f57e129] [cursor=pointer]:
+      - /url: /ai-image-detector
+    - link "AI Humanizer" [ref=f57e135] [cursor=pointer]:
+      - /url: /ai-humanizer
+    - link "APIs for Developers" [ref=f57e141] [cursor=pointer]:
+      - /url: /apis
+  - generic [ref=f57e146]:
+    - heading "Try the Mobile App and Chrome Extension" [level=2] [ref=f57e147]
+    - generic [ref=f57e148]:
+      - link [ref=f57e149] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=org.deepai&utm_source=web&utm_medium=web&utm_campaign=web-to-app
+        - img "Get it on Google Play" [ref=f57e150]
+      - link [ref=f57e151] [cursor=pointer]:
+        - /url: https://apps.apple.com/app/apple-store/id6749076874?pt=127333589&ct=web-to-app&mt=8
+        - img "Download on the App Store" [ref=f57e152]
+      - link "Chrome AVAILABLE ON THE Chrome Web Store" [ref=f57e153] [cursor=pointer]:
+        - /url: https://chromewebstore.google.com/detail/deepai-assistant/jpjenhiefacgpppejfkibcmaemcoblei
+        - generic [ref=f57e154]:
+          - img "Chrome" [ref=f57e155]
+          - generic [ref=f57e156]:
+            - generic [ref=f57e157]: AVAILABLE ON THE
+            - generic [ref=f57e158]: Chrome Web Store
+  - generic [ref=f57e159]:
+    - generic [ref=f57e160]:
+      - generic [ref=f57e161]:
+        - heading "About DeepAI" [level=2] [ref=f57e162]
+        - generic [ref=f57e163]:
+          - paragraph [ref=f57e164]: "DeepAI is the all-in-one creative AI platform built for everyone. We got our start in late 2016 with the first browser-based text-to-image generator (and some other generative tools). Since then, we have greatly expanded: with a single prompt, you can generate images, edit photos, chat with an AI that browses the internet, create short videos, compose original music, or chat with a realistic AI using your voice. All of these features are available instantly in your browser, and many are available through simple APIs."
+          - paragraph [ref=f57e165]: You can explore DeepAI for free without creating an account. DeepAI Pro costs $9.99 per month and includes high-volume usage, private generations, and an ad-free experience, which we proudly feel is one of the best deals on the market.
+          - paragraph [ref=f57e166]: We are committed to radical accessibility. Our platform provides fast tools, real email support for every user, and a clear policy that gives you full ownership of everything you create. Whether you are a hobbyist, a professional artist, or a developer integrating AI into your product, DeepAI delivers advanced technology with new video, music, and voice chat features. No competitor matches our combination of price, features, and ease of use.
+          - paragraph [ref=f57e167]: Beyond our consumer platform, we also take on custom technical projects for governments, nonprofits, and research organizations. Our team builds specialized computer vision systems, deploys perception and mapping pipelines across complex sensor networks, and solves challenging real-world problems that require production-grade AI solutions. If you have a unique technical challenge, we're equipped to help.
+      - img "DeepAI Robot" [ref=f57e170]
+    - generic [ref=f57e171]:
+      - heading "AI for Good" [level=3] [ref=f57e172]
+      - paragraph [ref=f57e173]: Beyond making AI accessible to creators worldwide, we believe in using our technology to solve real-world problems and support communities in need. Our "AI for Good" initiative reflects our commitment to environmental stewardship, conservation, and social impact.
+      - paragraph [ref=f57e174]: We've deployed advanced computer vision and sensor systems for critical conservation projects across the globe. Our technology analyzes satellite imagery, drone footage, aerial photography, and camera trap data to protect biodiversity and monitor environmental change. These systems use modern transformer-based detectors and lightweight CNNs optimized for different sensors and compute environments—from edge devices in remote locations to country-scale processing pipelines. All projects were delivered on time with measurable real-world impact.
+      - generic [ref=f57e175]:
+        - generic [ref=f57e176]:
+          - generic [ref=f57e177]:
+            - heading "African Wildlife Protection" [level=4] [ref=f57e178]
+            - paragraph [ref=f57e179]:
+              - text: Working with
+              - link "Wildlife Protection Solutions" [ref=f57e180] [cursor=pointer]:
+                - /url: https://www.wildlifeprotectionsolutions.org/
+              - text: ", we built multi-source detection systems to monitor endangered species across African reserves using camera trap networks and aerial imagery. The system generates real-time population estimates, movement patterns, and hotspot maps that cut field-team response time by 40%. This allows conservation teams to deploy resources more effectively and respond faster to threats like poaching."
+          - img "African Wildlife" [ref=f57e182]
+        - generic [ref=f57e183]:
+          - generic [ref=f57e184]:
+            - heading "Island Conservation Initiatives" [level=4] [ref=f57e185]
+            - paragraph [ref=f57e186]:
+              - text: For the
+              - link "Catalina Island Conservancy" [ref=f57e187] [cursor=pointer]:
+                - /url: https://catalinaconservancy.org/
+              - text: ", we developed species detection and distribution mapping systems using drone and camera-trap data across different habitat types. The resulting management-ready GIS layers accelerated habitat restoration planning by one full season, allowing the conservancy to prioritize restoration zones based on data-driven species presence analysis. Similarly, we collaborated with the"
+              - link "Kauaʻi Forest Bird Recovery Project" [ref=f57e188] [cursor=pointer]:
+                - /url: https://kauaiforestbirds.org/
+              - text: at the University of Hawaiʻi (working with
+              - link "Hawaiʻi DLNR" [ref=f57e189] [cursor=pointer]:
+                - /url: https://dlnr.hawaii.gov/
+              - text: ) to monitor threatened forest bird populations in remote terrain. By processing survey imagery and camera-trap sequences, we delivered detection datasets and habitat overlays that inform ongoing conservation decisions for these critically endangered species.
+          - img "Catalina Island" [ref=f57e191]
+        - generic [ref=f57e192]:
+          - generic [ref=f57e193]:
+            - heading "Federal Conservation Programs" [level=4] [ref=f57e194]
+            - paragraph [ref=f57e195]:
+              - text: Supporting the
+              - link "U.S. Fish and Wildlife Service's Pacific Islands Fish and Wildlife Office" [ref=f57e196] [cursor=pointer]:
+                - /url: https://www.fws.gov/office/pacific-islands-fish-and-wildlife
+              - text: ", we deployed detection and trend-analysis pipelines across multi-year imagery archives to monitor endangered species across island habitats. The system produces count trends, change detection analysis, and management maps that directly inform federal protection actions and recovery strategies."
+          - img "Pacific Islands Wildlife" [ref=f57e198]
+        - generic [ref=f57e199]:
+          - generic [ref=f57e200]:
+            - heading "UAE Nationwide Environmental Survey" [level=4] [ref=f57e201]
+            - paragraph [ref=f57e202]:
+              - text: We partnered with the
+              - link "Federal Competitiveness and Statistics Authority" [ref=f57e203] [cursor=pointer]:
+                - /url: https://fcsc.gov.ae/
+              - text: to create the first machine-verified, nationwide inventory of palm trees and greenery from satellite imagery. Processing over 2.4 million satellite images, we delivered a complete country-wide survey in just 4 weeks—a task that would have taken 6 months using traditional methods. The system geolocated over 200,000 individual palm trees and calculated precise greenery surface area estimates (in m²), providing executive-ready data for national policy and environmental planning. Survey costs were reduced by 60-80% compared to manual methods.
+          - img "UAE Palm Trees" [ref=f57e205]
+        - generic [ref=f57e206]:
+          - generic [ref=f57e207]:
+            - heading "Planetary Defense" [level=4] [ref=f57e208]
+            - paragraph [ref=f57e209]:
+              - text: We even contributed to space science through the
+              - link "International Astronomical Search Collaboration" [ref=f57e210] [cursor=pointer]:
+                - /url: https://science.nasa.gov/citizen-science/international-astronomical-search-collaboration/
+              - text: ", building automated candidate discovery systems for asteroid identification from telescope image sequences. Our moving-object detection system expanded their search capacity by 3×, helping identify potential near-Earth objects."
+          - img "Planetary Defense" [ref=f57e212]
+      - paragraph [ref=f57e213]: These projects demonstrate how responsible AI can shorten the observation-to-action loop. Faster detection means faster response. Lower costs mean broader coverage. Automated systems free experts to focus on decisions rather than data processing—and real conservation outcomes follow.
+      - generic [ref=f57e214]:
+        - generic [ref=f57e215]:
+          - heading "Uplifting People Around the World" [level=4] [ref=f57e216]
+          - paragraph [ref=f57e217]:
+            - text: We also support communities facing unique challenges. In 2025, DeepAI became the major sponsor of
+            - link "Tuvalu's national futsal team" [ref=f57e218] [cursor=pointer]:
+              - /url: https://www.oceaniafootball.com/from-airfields-training-to-the-regional-stage-tuvalu-ready-for-huge-opportunity/
+            - text: ", helping them return to international competition after a 14-year absence. Despite training on an airport runway due to limited infrastructure and facing the realities of climate vulnerability, the team's determination inspired us. This is what AI for Good means to us—using technology and resources to create opportunities and inspire hope, whether through conservation science or grassroots sports development."
+        - img "Tuvalu Futsal Team" [ref=f57e220]
+      - generic [ref=f57e221]:
+        - generic [ref=f57e222]:
+          - heading "A Matter of Dignity" [level=4] [ref=f57e223]
+          - paragraph [ref=f57e224]:
+            - text: This year, DeepAI partnered with the Global CSR Foundation to expand our social impact work around the world, and one of our first joint efforts was
+            - emphasis [ref=f57e225]: A Matter of Dignity
+            - text: ", a relief mission in Aceh Tamiang, Indonesia, following the devastating November 2025 floods. Alongside Yayasan Srikandi Merah Putih, KuCoin, and AMWA, the mission delivered meals, medicine, and 5,000 sustainable menstrual hygiene kits to families rebuilding after disaster. It reflects a partnership built on a shared belief: that responsible technology and humanitarian action can work hand in hand to protect both life and dignity."
+        - img "A Matter of Dignity relief mission in Aceh Tamiang, Indonesia" [ref=f57e227]
+      - paragraph [ref=f57e228]: At DeepAI, we're building tools that democratize creativity while actively contributing to a better world. That's the kind of company we want to be.
+  - generic [ref=f57e229]: © 2017-2025 Deep AI, Inc. All rights reserved. DEEPAI® and the Dolphin Design® are trademarks of Deep AI, Inc., registered in the U.S. and other territories. "Dolphin Design" © 2023 Deep AI, Inc.
+  - text: Email Address Enter Password Re-enter Password Add credits to your account
+  - contentinfo [ref=f57e230]:
+    - generic [ref=f57e231]:
+      - link [ref=f57e233] [cursor=pointer]:
+        - /url: /
+        - img "flops" [ref=f57e234]
+        - paragraph [ref=f57e235]: Deep AI, Inc. ©
+      - generic [ref=f57e236]:
+        - link "Submit Feedback" [ref=f57e237] [cursor=pointer]:
+          - /url: /feedback
+        - link "Contact" [ref=f57e238] [cursor=pointer]:
+          - /url: mailto:team@deepai.org
+        - link "Press" [ref=f57e239] [cursor=pointer]:
+          - /url: /press
+        - link "Legal" [ref=f57e240] [cursor=pointer]:
+          - /url: /terms-of-service/terms-of-service
+        - link [ref=f57e241] [cursor=pointer]:
+          - /url: https://twitter.com/DeepAI
+          - img "xlogo" [ref=f57e242]
+        - link [ref=f57e243] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/deepai
+          - img "linkedinlogo" [ref=f57e244]
+        - link [ref=f57e245] [cursor=pointer]:
+          - /url: https://www.instagram.com/deepai_org/
+          - img "instagramlogo" [ref=f57e246]
+        - link [ref=f57e247] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@_ai_creations
+          - img "tiktoklogo" [ref=f57e248]
+        - link [ref=f57e249] [cursor=pointer]:
+          - /url: https://www.reddit.com/r/DeepAI/
+          - img "redditlogo" [ref=f57e250]

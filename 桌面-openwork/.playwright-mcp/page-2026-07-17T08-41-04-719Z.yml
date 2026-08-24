@@ -1,0 +1,322 @@
+- generic [ref=f47e1]:
+  - generic [ref=f47e3]:
+    - generic [ref=f47e4]:
+      - complementary [ref=f47e1283]:
+        - link [ref=f47e1284] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f47e7]: 跳至主要內容
+        - button [ref=f47e1285]:
+          - generic [ref=f47e9]: 鍵盤快速鍵
+        - link [ref=f47e1286] [cursor=pointer]:
+          - /url: https://cloud.google.com/docs/accessibility?hl=zh_TW
+          - generic [ref=f47e11]: 無障礙功能說明
+        - link [ref=f47e1289] [cursor=pointer]:
+          - /url: https://support.google.com/accessibility/contact/feedback?hl=zh_TW
+          - generic [ref=f47e17]: 無障礙工具意見回饋
+      - banner [ref=f47e23]:
+        - generic [ref=f47e24]:
+          - navigation [ref=f47e27]:
+            - button [ref=f47e1292] [cursor=pointer]
+          - link [ref=f47e1293] [cursor=pointer]:
+            - /url: /
+          - button [ref=f47e1294]:
+            - generic [ref=f47e204]: My First Project
+        - search [ref=f47e1295]:
+          - combobox [ref=f47e47]:
+            - searchbox [ref=f47e1296]
+          - button [disabled]:
+            - generic: 搜尋
+        - generic [ref=f47e49]:
+          - generic [ref=f47e50]:
+            - button [ref=f47e1297] [cursor=pointer]
+            - button [ref=f47e1298] [cursor=pointer]
+            - button [ref=f47e1299] [cursor=pointer]
+            - button [ref=f47e1300] [cursor=pointer]:
+              - generic [ref=f47e58]: "2"
+            - button [ref=f47e1301] [cursor=pointer]
+          - button [ref=f47e1302]
+    - generic [ref=f47e80]:
+      - navigation [ref=f47e1303]:
+        - link [ref=f47e1304] [cursor=pointer]:
+          - /url: /auth?project=project-88745a68-5a47-436c-925
+          - generic [ref=f47e230]: Google Auth Platform
+        - list [ref=f47e232]:
+          - listitem [ref=f47e1047]:
+            - generic [ref=f47e1048]: /
+            - link [ref=f47e1305] [cursor=pointer]:
+              - /url: /auth/scopes?project=project-88745a68-5a47-436c-925
+              - generic [ref=f47e1052]: 資料存取權
+      - generic [ref=f47e91]:
+        - navigation [ref=f47e1306]:
+          - generic [ref=f47e99]:
+            - list [ref=f47e1307]:
+              - listitem [ref=f47e243]:
+                - link [ref=f47e1308] [cursor=pointer]:
+                  - /url: /auth/overview?project=project-88745a68-5a47-436c-925
+                  - generic [ref=f47e248]: 總覽
+              - listitem [ref=f47e254]:
+                - link [ref=f47e1309] [cursor=pointer]:
+                  - /url: /auth/branding?project=project-88745a68-5a47-436c-925
+                  - generic [ref=f47e259]: 品牌
+              - listitem [ref=f47e269]:
+                - link [ref=f47e1310] [cursor=pointer]:
+                  - /url: /auth/audience?project=project-88745a68-5a47-436c-925
+                  - generic [ref=f47e274]: 目標對象
+              - listitem [ref=f47e280]:
+                - link [ref=f47e1311] [cursor=pointer]:
+                  - /url: /auth/clients?project=project-88745a68-5a47-436c-925
+                  - generic [ref=f47e285]: 用戶端
+              - listitem [ref=f47e291]:
+                - link [ref=f47e1312] [cursor=pointer]:
+                  - /url: /auth/scopes?project=project-88745a68-5a47-436c-925
+                  - generic [ref=f47e296]: 資料存取權
+              - listitem [ref=f47e303]:
+                - link [ref=f47e1313] [cursor=pointer]:
+                  - /url: /auth/verification?project=project-88745a68-5a47-436c-925
+                  - generic [ref=f47e308]: 驗證中心
+              - listitem [ref=f47e315]:
+                - link [ref=f47e1314] [cursor=pointer]:
+                  - /url: /auth/settings?project=project-88745a68-5a47-436c-925
+                  - generic [ref=f47e320]: 設定
+            - button [ref=f47e1315] [cursor=pointer]
+        - main [ref=f47e175]:
+          - generic [ref=f47e1059]:
+            - heading [level=1] [ref=f47e1316]:
+              - generic [ref=f47e1066]: 資料存取權
+            - generic [ref=f47e1069]:
+              - generic [ref=f47e1071]:
+                - generic [ref=f47e1072]:
+                  - paragraph [ref=f47e1073]:
+                    - text: 「範圍」是用於表示您要求使用者為應用程式授予的權限，並可讓您的專案存取使用者 Google 帳戶中特定類型的私人使用者資料。
+                    - link [ref=f47e1317] [cursor=pointer]:
+                      - /url: https://developers.google.com/identity/protocols/oauth2/scopes?hl=zh_TW
+                      - text: 瞭解詳情
+                  - paragraph [ref=f47e1078]:
+                    - text: 如果您新增了機密 () 或受限制的 () 範圍 (例如可讓您存取使用者電子郵件或聯絡人資料的範圍)，則須提交應用程式來完成驗證程序。
+                    - link [ref=f47e1319] [cursor=pointer]:
+                      - /url: https://support.google.com/cloud/answer/9110914?hl=zh_TW
+                      - text: 瞭解詳情
+                  - button [ref=f47e1321]:
+                    - generic [ref=f47e1092]: 新增或移除範圍
+                - separator [ref=f47e1093]
+                - generic [ref=f47e1094]:
+                  - heading [level=2] [ref=f47e1322]: 您的非機密範圍
+                  - grid [ref=f47e1323]:
+                    - rowgroup [ref=f47e1107]:
+                      - row [ref=f47e1324]:
+                        - columnheader [ref=f47e1325]:
+                          - generic [ref=f47e1111] [cursor=pointer]:
+                            - button [ref=f47e1326]
+                            - button [ref=f47e1327]
+                        - columnheader [ref=f47e1328]:
+                          - generic [ref=f47e1124] [cursor=pointer]:
+                            - generic [ref=f47e1125]: API
+                            - button [ref=f47e1329]
+                        - columnheader [ref=f47e1330]:
+                          - generic [ref=f47e1132] [cursor=pointer]:
+                            - generic [ref=f47e1133]: 範圍
+                            - button [ref=f47e1331]
+                        - columnheader [ref=f47e1332]:
+                          - generic [ref=f47e1140] [cursor=pointer]:
+                            - generic [ref=f47e1141]: 使用者可以看見的說明
+                            - button [ref=f47e1333]
+                        - columnheader [ref=f47e1334]
+                    - rowgroup [ref=f47e1147]:
+                      - row [ref=f47e1335]:
+                        - gridcell [ref=f47e1336]: 沒有可顯示的資料列
+                - separator [ref=f47e1150]
+                - generic [ref=f47e1151]:
+                  - heading [level=2] [ref=f47e1337]: 您的機密範圍
+                  - paragraph [ref=f47e1157]: 機密範圍是指會要求存取私人使用者資料的範圍。
+                  - grid [ref=f47e1338]:
+                    - rowgroup [ref=f47e1169]:
+                      - row [ref=f47e1339]:
+                        - columnheader [ref=f47e1340]:
+                          - generic [ref=f47e1173] [cursor=pointer]:
+                            - button [ref=f47e1341]
+                            - button [ref=f47e1342]
+                        - columnheader [ref=f47e1343]:
+                          - generic [ref=f47e1186] [cursor=pointer]:
+                            - generic [ref=f47e1187]: API
+                            - button [ref=f47e1344]
+                        - columnheader [ref=f47e1345]:
+                          - generic [ref=f47e1194] [cursor=pointer]:
+                            - generic [ref=f47e1195]: 範圍
+                            - button [ref=f47e1346]
+                        - columnheader [ref=f47e1347]:
+                          - generic [ref=f47e1202] [cursor=pointer]:
+                            - generic [ref=f47e1203]: 使用者可以看見的說明
+                            - button [ref=f47e1348]
+                        - columnheader [ref=f47e1349]
+                    - rowgroup [ref=f47e1209]:
+                      - row [ref=f47e1350]:
+                        - gridcell [ref=f47e1351]: 沒有可顯示的資料列
+                - separator [ref=f47e1212]
+                - generic [ref=f47e1213]:
+                  - heading [level=2] [ref=f47e1352]: 您的受限制範圍
+                  - paragraph [ref=f47e1219]: 受限制範圍是指會要求存取高度機密使用者資料的範圍。
+                  - grid [ref=f47e1353]:
+                    - rowgroup [ref=f47e1231]:
+                      - row [ref=f47e1354]:
+                        - columnheader [ref=f47e1355]:
+                          - generic [ref=f47e1235] [cursor=pointer]:
+                            - button [ref=f47e1356]
+                            - button [ref=f47e1357]
+                        - columnheader [ref=f47e1358]:
+                          - generic [ref=f47e1248] [cursor=pointer]:
+                            - generic [ref=f47e1249]: API
+                            - button [ref=f47e1359]
+                        - columnheader [ref=f47e1360]:
+                          - generic [ref=f47e1256] [cursor=pointer]:
+                            - generic [ref=f47e1257]: 範圍
+                            - button [ref=f47e1361]
+                        - columnheader [ref=f47e1362]:
+                          - generic [ref=f47e1264] [cursor=pointer]:
+                            - generic [ref=f47e1265]: 使用者可以看見的說明
+                            - button [ref=f47e1363]
+                        - columnheader [ref=f47e1364]
+                    - rowgroup [ref=f47e1271]:
+                      - row [ref=f47e1365]:
+                        - gridcell [ref=f47e1366]: 沒有可顯示的資料列
+                - separator [ref=f47e1274]
+              - button [disabled] [ref=f47e1367]:
+                - generic [ref=f47e1278]: Save
+              - button [disabled] [ref=f47e1368]:
+                - generic [ref=f47e1280]: 捨棄變更
+  - iframe [ref=f47e200]:
+    
+  - iframe [ref=f47e202]:
+    
+  - dialog [ref=f47e1370]:
+    - generic [ref=f47e1374]:
+      - generic [ref=f47e1377]:
+        - button "關閉" [ref=f47e1381] [cursor=pointer]
+        - heading "更新所選範圍" [active] [level=1] [ref=f47e1387]
+      - generic [ref=f47e1391]:
+        - generic [ref=f47e1393]:
+          - img "資訊" [ref=f47e1394]
+          - generic [ref=f47e1399]:
+            - text: 下方只會列出已啟用 API 的範圍。如要在這個畫面中新增遺漏的範圍，請前往
+            - link "Google API 資料庫" [ref=f47e1400] [cursor=pointer]:
+              - /url: /apis/library?project=project-88745a68-5a47-436c-925
+            - text: 搜尋並啟用所需 API，或是使用下方的「貼上的範圍」文字方塊。重新整理頁面即可查看您剛剛透過資料庫啟用的所有 API。
+        - generic [ref=f47e1401]:
+          - generic [ref=f47e1405]:
+            - generic [ref=f47e1409]: 篩選條件
+            - group [ref=f47e1410]:
+              - combobox "篩選條件" [ref=f47e1412]: 輸入屬性名稱或值
+            - button "篩選功能的說明。" [ref=f47e1414] [cursor=pointer]
+          - grid "Table displaying a list of scopes , 使用方向鍵瀏覽資料表。按 Enter 鍵可與儲存格互動。按 Tab 鍵可在儲存格內瀏覽。按 Esc 鍵可離開儲存格。" [ref=f47e1421]:
+            - rowgroup [ref=f47e1428]:
+              - row [ref=f47e1429]:
+                - gridcell "選取資料列" [ref=f47e1430]:
+                  - checkbox "選取所有列" [ref=f47e1431] [cursor=pointer]
+                - columnheader "範圍風險" [ref=f47e1432]:
+                  - generic [ref=f47e1434] [cursor=pointer]:
+                    - button "範圍風險資訊" [ref=f47e1436]
+                    - button "按照「」排序" [ref=f47e1441]
+                - columnheader "API" [ref=f47e1445]:
+                  - generic [ref=f47e1447] [cursor=pointer]:
+                    - generic [ref=f47e1448]: API
+                    - button "按照「API」排序" [ref=f47e1449]
+                - columnheader "範圍" [ref=f47e1453]:
+                  - generic [ref=f47e1455] [cursor=pointer]:
+                    - generic [ref=f47e1456]: 範圍
+                    - button "按照「範圍」排序" [ref=f47e1457]
+                - columnheader "使用者可以看見的說明" [ref=f47e1461]:
+                  - generic [ref=f47e1463] [cursor=pointer]:
+                    - generic [ref=f47e1464]: 使用者可以看見的說明
+                    - button "按照「使用者可以看見的說明」排序" [ref=f47e1465]
+            - rowgroup [ref=f47e1469]:
+              - row [ref=f47e1470]:
+                - gridcell [ref=f47e1471]:
+                  - checkbox "選取列" [ref=f47e1473] [cursor=pointer]
+                - gridcell [ref=f47e1474]
+                - gridcell [ref=f47e1475]
+                - gridcell [ref=f47e1476]
+                - gridcell "查看您的主要 Google 帳戶電子郵件地址" [ref=f47e1478]
+              - row [ref=f47e1479]:
+                - gridcell [ref=f47e1480]:
+                  - checkbox "選取列" [ref=f47e1482] [cursor=pointer]
+                - gridcell [ref=f47e1483]
+                - gridcell [ref=f47e1484]
+                - gridcell [ref=f47e1485]
+                - gridcell "查看您的個人資訊，包括您已公開的任何個人資訊" [ref=f47e1487]
+              - row [ref=f47e1488]:
+                - gridcell [ref=f47e1489]:
+                  - checkbox "選取列" [ref=f47e1491] [cursor=pointer]
+                - gridcell [ref=f47e1492]
+                - gridcell [ref=f47e1493]
+                - gridcell "openid" [ref=f47e1494]
+                - gridcell "連結您在 Google 上的個人資料" [ref=f47e1495]
+              - row [ref=f47e1496]:
+                - gridcell [ref=f47e1497]:
+                  - checkbox "選取列" [ref=f47e1499] [cursor=pointer]
+                - gridcell [ref=f47e1500]:
+                  - img "這是敏感範圍，使用前必須先進行驗證" [ref=f47e1501]
+                - gridcell "Analytics Hub API" [ref=f47e1505]
+                - gridcell [ref=f47e1506]
+                - gridcell "View and manage your data in Google BigQuery and see the email address for your Google Account" [ref=f47e1508]
+              - row [ref=f47e1509]:
+                - gridcell [ref=f47e1510]:
+                  - checkbox "選取列" [ref=f47e1512] [cursor=pointer]
+                - gridcell [ref=f47e1513]:
+                  - img "這是敏感範圍，使用前必須先進行驗證" [ref=f47e1514]
+                - gridcell "Analytics Hub API" [ref=f47e1518]
+                - gridcell [ref=f47e1519]
+                - gridcell "查看、編輯、設定和刪除您的 Google Cloud 資料，以及查看您 Google 帳戶的電子郵件地址。" [ref=f47e1521]
+              - row [ref=f47e1522]:
+                - gridcell [ref=f47e1523]:
+                  - checkbox "選取列" [ref=f47e1525] [cursor=pointer]
+                - gridcell [ref=f47e1526]:
+                  - img "這是敏感範圍，使用前必須先進行驗證" [ref=f47e1527]
+                - gridcell "BigQuery API" [ref=f47e1531]
+                - gridcell [ref=f47e1532]
+                - gridcell "檢視您的 Google BigQuery 資料" [ref=f47e1534]
+              - row [ref=f47e1535]:
+                - gridcell [ref=f47e1536]:
+                  - checkbox "選取列" [ref=f47e1538] [cursor=pointer]
+                - gridcell [ref=f47e1539]:
+                  - img "這是敏感範圍，使用前必須先進行驗證" [ref=f47e1540]
+                - gridcell "BigQuery API" [ref=f47e1544]
+                - gridcell [ref=f47e1545]
+                - gridcell "查看您在各項 Google Cloud 服務中的資料，以及您 Google 帳戶的電子郵件地址" [ref=f47e1547]
+              - row [ref=f47e1548]:
+                - gridcell [ref=f47e1549]:
+                  - checkbox "選取列" [ref=f47e1551] [cursor=pointer]
+                - gridcell [ref=f47e1552]:
+                  - img "這是敏感範圍，使用前必須先進行驗證" [ref=f47e1553]
+                - gridcell "BigQuery API" [ref=f47e1557]
+                - gridcell [ref=f47e1558]
+                - gridcell "Manage your data and permissions in Cloud Storage and see the email address for your Google Account" [ref=f47e1560]
+              - row [ref=f47e1561]:
+                - gridcell [ref=f47e1562]:
+                  - checkbox "選取列" [ref=f47e1564] [cursor=pointer]
+                - gridcell [ref=f47e1565]:
+                  - img "這是敏感範圍，使用前必須先進行驗證" [ref=f47e1566]
+                - gridcell "BigQuery API" [ref=f47e1570]
+                - gridcell [ref=f47e1571]
+                - gridcell "查看您的 Google Cloud Storage 資料" [ref=f47e1573]
+              - row [ref=f47e1574]:
+                - gridcell [ref=f47e1575]:
+                  - checkbox "選取列" [ref=f47e1577] [cursor=pointer]
+                - gridcell [ref=f47e1578]:
+                  - img "這是敏感範圍，使用前必須先進行驗證" [ref=f47e1579]
+                - gridcell "BigQuery API" [ref=f47e1583]
+                - gridcell [ref=f47e1584]
+                - gridcell "管理您在 Cloud Storage 中的資料，以及查看您 Google 帳戶的電子郵件地址" [ref=f47e1586]
+          - group "1 – 10 / 62" [ref=f47e1589]:
+            - generic [ref=f47e1591]:
+              - generic [ref=f47e1592]: "每頁列數:"
+              - combobox "每頁列數" [ref=f47e1594] [cursor=pointer]:
+                - generic [ref=f47e1595]: "10"
+            - generic [ref=f47e1601]:
+              - generic [ref=f47e1602]: 1 – 10 / 62
+              - button "已位於第一頁。" [disabled] [ref=f47e1603]
+              - button "後 10 列" [ref=f47e1607] [cursor=pointer]
+        - heading "手動新增範圍" [level=2] [ref=f47e1611]
+        - paragraph [ref=f47e1612]: 如果您要新增的範圍並未顯示在上方表格中，請在這裡輸入所需範圍。每行列出一個範圍，或是全都列在同一行，但以半形逗點分隔。請提供完整的範圍字串 (開頭為「https://」)。輸入完畢時，請按一下 [新增至資料表]。
+        - textbox "手動貼上範圍" [ref=f47e1617]
+        - generic [ref=f47e1619]:
+          - button "新增至資料表" [disabled]
+      - button "更新" [ref=f47e1623]

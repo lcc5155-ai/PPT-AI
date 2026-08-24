@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - complementary "略過連結" [ref=e5]:
+        - link "跳至主要內容" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - button "鍵盤快速鍵" [ref=e8]
+        - link [ref=e10] [cursor=pointer]:
+          - /url: https://cloud.google.com/docs/accessibility?hl=zh_TW
+          - generic [ref=e11]:
+            - text: 無障礙功能說明
+            - generic "外部連結 (在新視窗開啟)" [ref=e12]:
+              - img "外部連結 (在新視窗開啟)" [ref=e13]
+        - link [ref=e16] [cursor=pointer]:
+          - /url: https://support.google.com/accessibility/contact/feedback?hl=zh_TW
+          - generic [ref=e17]:
+            - text: 無障礙工具意見回饋
+            - generic "外部連結 (在新視窗開啟)" [ref=e18]:
+              - img "外部連結 (在新視窗開啟)" [ref=e19]
+      - banner [ref=e23]:
+        - generic [ref=e24]:
+          - navigation [ref=e27]:
+            - button "導覽選單 (.)" [ref=e28] [cursor=pointer]
+          - link "「Google Cloud Platform」首頁" [ref=e32] [cursor=pointer]:
+            - /url: /
+          - button "未選取任何專案。按下 Enter 鍵即可選取專案、資料夾或機構。" [ref=e40]
+        - search "Google Cloud Platform" [ref=e46]:
+          - combobox [ref=e47]:
+            - searchbox "輸入查詢即可搜尋資源、文件、產品等項目" [ref=e48]
+          - button "查看所有搜尋結果" [disabled]:
+            - generic: 搜尋
+        - generic [ref=e50]:
+          - generic [ref=e53]:
+            - button "啟用 Cloud Shell (G then S)" [disabled]
+          - button "開啟通知" [ref=e57] [cursor=pointer]
+          - button "設定與公用程式" [ref=e65] [cursor=pointer]
+    - generic [ref=e91]:
+      - navigation "Google Auth Platform" [ref=e98]:
+        - generic [ref=e99]:
+          - heading [level=2] [ref=e101]:
+            - link "Google Auth Platform" [ref=e102] [cursor=pointer]:
+              - /url: /auth
+          - list "總覽，第 1 個 (共 7 個) 品牌，第 2 個 (共 7 個) 目標對象，第 3 個 (共 7 個) 用戶端，第 4 個 (共 7 個) 資料存取權，第 5 個 (共 7 個) 驗證中心，第 6 個 (共 7 個) 設定，第 7 個 (共 7 個)" [ref=e111]:
+            - listitem [ref=e112]:
+              - link "總覽，第 1 個 (共 7 個)" [ref=e116] [cursor=pointer]:
+                - /url: /auth/overview
+                - generic [ref=e117]: 總覽
+            - listitem [ref=e123]:
+              - link "品牌，第 2 個 (共 7 個)" [ref=e127] [cursor=pointer]:
+                - /url: /auth/branding
+                - generic [ref=e128]: 品牌
+            - listitem [ref=e138]:
+              - link "目標對象，第 3 個 (共 7 個)" [ref=e142] [cursor=pointer]:
+                - /url: /auth/audience
+                - generic [ref=e143]: 目標對象
+            - listitem [ref=e149]:
+              - link "用戶端，第 4 個 (共 7 個)" [ref=e153] [cursor=pointer]:
+                - /url: /auth/clients
+                - generic [ref=e154]: 用戶端
+            - listitem [ref=e160]:
+              - link "資料存取權，第 5 個 (共 7 個)" [ref=e164] [cursor=pointer]:
+                - /url: /auth/scopes
+                - generic [ref=e165]: 資料存取權
+            - listitem [ref=e172]:
+              - link "驗證中心，第 6 個 (共 7 個)" [ref=e176] [cursor=pointer]:
+                - /url: /auth/verification
+                - generic [ref=e177]: 驗證中心
+            - listitem [ref=e184]:
+              - link "設定，第 7 個 (共 7 個)" [ref=e188] [cursor=pointer]:
+                - /url: /auth/settings
+                - generic [ref=e189]: 設定
+          - button "切換「Google Auth Platform」導覽選單" [ref=e196] [cursor=pointer]
+      - main [ref=e202]:
+        - progressbar [ref=e210]
+  - iframe [ref=e226]:
+    
+  - iframe [ref=e228]:
+    

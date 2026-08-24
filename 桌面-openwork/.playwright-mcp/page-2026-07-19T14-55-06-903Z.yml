@@ -1,0 +1,82 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - heading "Spaces Hugging Face's logo stabilityai / stable-diffusion-3.5-large like 2.03k Agents Running on Zero Get PRO" [level=1] [ref=e7]:
+        - generic [ref=e8]:
+          - link "Spaces" [ref=e9] [cursor=pointer]:
+            - /url: /spaces
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=e11]
+        - separator [ref=e12]
+        - generic [ref=e13]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /stabilityai
+          - link "stabilityai" [ref=e21] [cursor=pointer]:
+            - /url: /stabilityai
+          - generic [ref=e22]: /
+        - generic [ref=e23]:
+          - link "stable-diffusion-3.5-large" [ref=e24] [cursor=pointer]:
+            - /url: /spaces/stabilityai/stable-diffusion-3.5-large
+          - button "Copy space name to clipboard" [ref=e25] [cursor=pointer]
+        - generic [ref=e30]:
+          - button "like" [ref=e33] [cursor=pointer]
+          - button "2.03k" [ref=e37] [cursor=pointer]
+        - generic [ref=e38]: Agents
+        - generic [ref=e49] [cursor=pointer]:
+          - text: Running
+          - generic [ref=e50]: "on"
+          - generic [ref=e51]: Zero
+        - link "Get PRO" [ref=e52] [cursor=pointer]:
+          - /url: /pro
+        - button [ref=e57] [cursor=pointer]
+      - button [ref=e65] [cursor=pointer]
+  - main [ref=e68]:
+    - iframe [active] [ref=e70]:
+      - generic [ref=f2e21]:
+        - main [ref=f2e22]:
+          - generic [ref=f2e24]:
+            - heading [level=1] [ref=f2e29]:
+              - link "Stable Diffusion 3.5 Large (8B)" [ref=f2e30] [cursor=pointer]:
+                - /url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+            - paragraph [ref=f2e35]:
+              - link "Learn more" [ref=f2e36] [cursor=pointer]:
+                - /url: https://stability.ai/news/introducing-stable-diffusion-3-5
+              - text: about the Stable Diffusion 3.5 series. Try on
+              - link "Stability AI API" [ref=f2e37] [cursor=pointer]:
+                - /url: https://platform.stability.ai/docs/api-reference#tag/Generate/paths/~1v2beta~1stable-image~1generate~1sd3/post
+              - text: ", or"
+              - link "download model" [ref=f2e38] [cursor=pointer]:
+                - /url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+              - text: to run locally with ComfyUI or diffusers.
+            - generic [ref=f2e39]:
+              - generic [ref=f2e41]:
+                - generic [ref=f2e42]: Prompt
+                - textbox "Prompt" [ref=f2e44]:
+                  - /placeholder: Enter your prompt
+                  - text: anime boy full body shot from head to toe standing facing viewer clear face dark blue clothes gold trim lines
+              - button "Run" [active] [ref=f2e45] [cursor=pointer]
+            - generic [ref=f2e46]:
+              - generic [ref=f2e75]:
+                - button "清除" [ref=f2e77] [cursor=pointer]
+                - generic [ref=f2e83]: 錯誤
+              - generic "Empty value" [ref=f2e47]
+            - button "Advanced Settings ▼" [ref=f2e54] [cursor=pointer]:
+              - generic [ref=f2e55]: Advanced Settings
+              - generic [ref=f2e56]: ▼
+            - generic [ref=f2e57]:
+              - generic [ref=f2e58]: Examples
+              - button "A capybara wearing a suit holding a sign that reads Hello Wo..." [ref=f2e62] [cursor=pointer]
+        - contentinfo "Gradio footer navigation" [ref=f2e65]:
+          - button [ref=f2e66] [cursor=pointer]:
+            - text: 透過 API 使用
+            - img "標誌" [ref=f2e67]
+          - generic [ref=f2e68]: ·
+          - link [ref=f2e69] [cursor=pointer]:
+            - /url: https://gradio.app
+            - text: 使用 Gradio 建構
+            - img "標誌" [ref=f2e70]
+          - generic [ref=f2e71]: ·
+          - button [ref=f2e72] [cursor=pointer]:
+            - text: 設定
+            - img "設定" [ref=f2e73]

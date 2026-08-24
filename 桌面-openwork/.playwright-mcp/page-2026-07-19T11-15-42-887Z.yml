@@ -1,0 +1,82 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e4]:
+    - generic [ref=f5e6]:
+      - heading "Spaces Hugging Face's logo stabilityai / stable-diffusion-3.5-large like 2.03k Agents Running on Zero Get PRO" [level=1] [ref=f5e7]:
+        - generic [ref=f5e8]:
+          - link "Spaces" [ref=f5e9] [cursor=pointer]:
+            - /url: /spaces
+          - link [ref=f5e10] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=f5e11]
+        - separator [ref=f5e12]
+        - generic [ref=f5e13]:
+          - link [ref=f5e17] [cursor=pointer]:
+            - /url: /stabilityai
+          - link "stabilityai" [ref=f5e21] [cursor=pointer]:
+            - /url: /stabilityai
+          - generic [ref=f5e22]: /
+        - generic [ref=f5e23]:
+          - link "stable-diffusion-3.5-large" [ref=f5e24] [cursor=pointer]:
+            - /url: /spaces/stabilityai/stable-diffusion-3.5-large
+          - button "Copy space name to clipboard" [ref=f5e25] [cursor=pointer]
+        - generic [ref=f5e30]:
+          - button "like" [ref=f5e33] [cursor=pointer]
+          - button "2.03k" [ref=f5e37] [cursor=pointer]
+        - generic [ref=f5e38]: Agents
+        - generic [ref=f5e49] [cursor=pointer]:
+          - text: Running
+          - generic [ref=f5e50]: "on"
+          - generic [ref=f5e51]: Zero
+        - link "Get PRO" [ref=f5e52] [cursor=pointer]:
+          - /url: /pro
+        - button [ref=f5e57] [cursor=pointer]
+      - button [ref=f5e65] [cursor=pointer]
+  - main [ref=f5e68]:
+    - iframe [active] [ref=f5e70]:
+      - generic [ref=f7e5]:
+        - main [ref=f7e6]:
+          - generic [ref=f7e8]:
+            - heading [level=1] [ref=f7e13]:
+              - link "Stable Diffusion 3.5 Large (8B)" [ref=f7e14] [cursor=pointer]:
+                - /url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+            - paragraph [ref=f7e19]:
+              - link "Learn more" [ref=f7e20] [cursor=pointer]:
+                - /url: https://stability.ai/news/introducing-stable-diffusion-3-5
+              - text: about the Stable Diffusion 3.5 series. Try on
+              - link "Stability AI API" [ref=f7e21] [cursor=pointer]:
+                - /url: https://platform.stability.ai/docs/api-reference#tag/Generate/paths/~1v2beta~1stable-image~1generate~1sd3/post
+              - text: ", or"
+              - link "download model" [ref=f7e22] [cursor=pointer]:
+                - /url: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+              - text: to run locally with ComfyUI or diffusers.
+            - generic [ref=f7e23]:
+              - generic [ref=f7e25]:
+                - generic [ref=f7e26]: Prompt
+                - textbox "Prompt" [ref=f7e28]:
+                  - /placeholder: Enter your prompt
+                  - text: Anime-style male protagonist, full body shot from head to toe, facing viewer, clear face with bright eyes, wearing dark blue outfit with gold trim lines, standing pose, vibrant anime art style, cel shading, clean lines
+              - button "Run" [active] [ref=f7e29] [cursor=pointer]
+            - generic [ref=f7e30]:
+              - generic [ref=f7e56]:
+                - button "清除" [ref=f7e58] [cursor=pointer]
+                - generic [ref=f7e64]: 錯誤
+              - generic "Empty value" [ref=f7e31]
+            - button "Advanced Settings ▼" [ref=f7e38] [cursor=pointer]:
+              - generic [ref=f7e39]: Advanced Settings
+              - generic [ref=f7e40]: ▼
+            - generic [ref=f7e41]:
+              - generic [ref=f7e42]: Examples
+              - button "A capybara wearing a suit holding a sign that reads Hello Wo..." [ref=f7e66] [cursor=pointer]
+        - contentinfo "Gradio footer navigation" [ref=f7e47]:
+          - button [ref=f7e69] [cursor=pointer]:
+            - text: 透過 API 使用
+            - img "標誌" [ref=f7e70]
+          - generic [ref=f7e50]: ·
+          - link [ref=f7e71] [cursor=pointer]:
+            - /url: https://gradio.app
+            - text: 使用 Gradio 建構
+            - img "標誌" [ref=f7e72]
+          - generic [ref=f7e53]: ·
+          - button [ref=f7e73] [cursor=pointer]:
+            - text: 設定
+            - img "設定" [ref=f7e74]

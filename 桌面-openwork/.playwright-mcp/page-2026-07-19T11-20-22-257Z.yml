@@ -1,0 +1,32 @@
+- generic [ref=f42e2]:
+  - banner [ref=f42e4]:
+    - generic [ref=f42e6]:
+      - heading "Spaces Hugging Face's logo huggingface-projects / diffuse-the-rest like 932 Running" [level=1] [ref=f42e7]:
+        - generic [ref=f42e8]:
+          - link "Spaces" [ref=f42e9] [cursor=pointer]:
+            - /url: /spaces
+          - link [ref=f42e10] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=f42e11]
+        - separator [ref=f42e12]
+        - generic [ref=f42e13]:
+          - link [ref=f42e17] [cursor=pointer]:
+            - /url: /huggingface-projects
+          - link "huggingface-projects" [ref=f42e21] [cursor=pointer]:
+            - /url: /huggingface-projects
+          - generic [ref=f42e22]: /
+        - generic [ref=f42e23]:
+          - link "diffuse-the-rest" [ref=f42e24] [cursor=pointer]:
+            - /url: /spaces/huggingface-projects/diffuse-the-rest
+          - button "Copy space name to clipboard" [ref=f42e25] [cursor=pointer]
+        - generic [ref=f42e30]:
+          - button "like" [ref=f42e33] [cursor=pointer]
+          - button "932" [ref=f42e37] [cursor=pointer]
+        - generic [ref=f42e38]: Running
+        - button [ref=f42e45] [cursor=pointer]
+      - button [ref=f42e53] [cursor=pointer]
+  - main [ref=f42e56]:
+    - iframe [active] [ref=f42e58]:
+      - generic [ref=f44e5]:
+        - paragraph [ref=f44e6]: Loading…
+        - paragraph [ref=f44e7]: █▒▒▒▒▒▒▒▒▒

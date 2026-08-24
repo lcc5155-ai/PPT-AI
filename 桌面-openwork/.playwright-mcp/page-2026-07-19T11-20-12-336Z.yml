@@ -1,0 +1,100 @@
+- generic [ref=f36e2]:
+  - banner [ref=f36e4]:
+    - generic [ref=f36e6]:
+      - link "Hugging Face's logo Hugging Face" [ref=f36e7] [cursor=pointer]:
+        - /url: /
+        - img "Hugging Face's logo" [ref=f36e8]
+        - generic [ref=f36e9]: Hugging Face
+      - textbox "Search models, datasets, users..." [ref=f36e11]
+      - button [ref=f36e15] [cursor=pointer]
+  - main [ref=f36e18]:
+    - generic [ref=f36e21]:
+      - heading "404" [level=1] [ref=f36e22]
+      - paragraph [ref=f36e23]: Sorry, we can't find the page you are looking for.
+  - contentinfo [ref=f36e24]:
+    - generic [ref=f36e26]:
+      - button "System theme" [ref=f36e30] [cursor=pointer]
+      - generic [ref=f36e36]:
+        - generic [ref=f36e37]: Website
+        - list [ref=f36e38]:
+          - listitem [ref=f36e39]:
+            - link "Models" [ref=f36e40] [cursor=pointer]:
+              - /url: /models
+          - listitem [ref=f36e41]:
+            - link "Datasets" [ref=f36e42] [cursor=pointer]:
+              - /url: /datasets
+          - listitem [ref=f36e43]:
+            - link "Spaces" [ref=f36e44] [cursor=pointer]:
+              - /url: /spaces
+          - listitem [ref=f36e45]:
+            - link "Changelog" [ref=f36e46] [cursor=pointer]:
+              - /url: /changelog
+          - listitem [ref=f36e48]:
+            - link "Inference Endpoints" [ref=f36e49] [cursor=pointer]:
+              - /url: https://endpoints.huggingface.co
+          - listitem [ref=f36e50]:
+            - link "HuggingChat" [ref=f36e51] [cursor=pointer]:
+              - /url: /chat
+      - generic [ref=f36e52]:
+        - generic [ref=f36e53]: Company
+        - list [ref=f36e54]:
+          - listitem [ref=f36e55]:
+            - link "About" [ref=f36e56] [cursor=pointer]:
+              - /url: /huggingface
+          - listitem [ref=f36e57]:
+            - link "Brand assets" [ref=f36e58] [cursor=pointer]:
+              - /url: /brand
+          - listitem [ref=f36e59]:
+            - link "Terms of service" [ref=f36e60] [cursor=pointer]:
+              - /url: /terms-of-service
+          - listitem [ref=f36e61]:
+            - link "Privacy" [ref=f36e62] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f36e63]:
+            - link "Careers" [ref=f36e64] [cursor=pointer]:
+              - /url: https://apply.workable.com/huggingface/
+          - listitem [ref=f36e65]:
+            - link "Press" [ref=f36e66] [cursor=pointer]:
+              - /url: mailto:press@huggingface.co
+      - generic [ref=f36e67]:
+        - generic [ref=f36e68]: Resources
+        - list [ref=f36e69]:
+          - listitem [ref=f36e70]:
+            - link "Learn" [ref=f36e71] [cursor=pointer]:
+              - /url: /learn
+          - listitem [ref=f36e72]:
+            - link "Documentation" [ref=f36e73] [cursor=pointer]:
+              - /url: /docs
+          - listitem [ref=f36e74]:
+            - link "Blog" [ref=f36e75] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f36e76]:
+            - link "Forum" [ref=f36e77] [cursor=pointer]:
+              - /url: https://discuss.huggingface.co
+          - listitem [ref=f36e78]:
+            - link "Service Status" [ref=f36e79] [cursor=pointer]:
+              - /url: https://status.huggingface.co/
+          - listitem [ref=f36e80]:
+            - link "Speed test" [ref=f36e81] [cursor=pointer]:
+              - /url: https://fast.hf.co
+      - generic [ref=f36e82]:
+        - generic [ref=f36e83]: Social
+        - list [ref=f36e84]:
+          - listitem [ref=f36e85]:
+            - link "GitHub" [ref=f36e86] [cursor=pointer]:
+              - /url: https://github.com/huggingface
+          - listitem [ref=f36e87]:
+            - link "Twitter" [ref=f36e88] [cursor=pointer]:
+              - /url: https://twitter.com/huggingface
+          - listitem [ref=f36e89]:
+            - link "LinkedIn" [ref=f36e90] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/huggingface/
+          - listitem [ref=f36e91]:
+            - link "Discord" [ref=f36e92] [cursor=pointer]:
+              - /url: /join/discord
+          - listitem [ref=f36e93]:
+            - link "Zhihu" [ref=f36e94] [cursor=pointer]:
+              - /url: https://www.zhihu.com/org/huggingface
+          - listitem [ref=f36e95]:
+            - link "WeChat" [ref=f36e96] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/chinese-language-blog/wechat.jpg
