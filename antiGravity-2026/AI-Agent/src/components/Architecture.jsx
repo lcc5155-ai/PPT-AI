@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Brain, Cpu, Database, Wrench, ArrowRight, Layers, HelpCircle, Code } from 'lucide-react';
+import { Brain, Cpu, Database, Wrench, Layers, Code } from 'lucide-react';
 
 export default function Architecture() {
   const [selectedNode, setSelectedNode] = useState('brain');

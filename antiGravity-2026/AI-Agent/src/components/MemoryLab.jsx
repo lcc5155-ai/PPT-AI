@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Database, Plus, RefreshCw, Search, ArrowRight, BookOpen } from 'lucide-react';
+import { Database, Plus, RefreshCw, Search, BookOpen } from 'lucide-react';
 
 const VECTOR_STORE = [
   { id: 1, text: "使用者住在台北，特別喜歡吃麻辣火鍋，但不喜歡香菜。", tag: "User Profile", vector: [0.12, 0.85, 0.45, -0.22] },

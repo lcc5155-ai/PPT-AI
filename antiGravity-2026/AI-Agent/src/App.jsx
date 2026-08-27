@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layers, Cpu, Database, Code, ShieldAlert, Sparkles } from 'lucide-react';
+import { Layers, Cpu, Database, Code, Sparkles } from 'lucide-react';
 import Architecture from './components/Architecture';
 import Simulator from './components/Simulator';
 import MemoryLab from './components/MemoryLab';

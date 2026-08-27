@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Play, SkipForward, RotateCcw, Wrench, Brain, Eye, CheckCircle, Database } from 'lucide-react';
 
 const PRESETS = [
@@ -127,6 +127,20 @@ export default function Simulator() {
     resetSimulator();
   }, [selectedPreset]);
 
+  const resetSimulator = () => {
+    setCurrentStepIdx(-1);
+    setIsPlaying(false);
+    setHistory([]);
+  };
+
+  const nextStep = useCallback(() => {
+    if (currentStepIdx < selectedPreset.steps.length - 1) {
+      const nextIdx = currentStepIdx + 1;
+      setCurrentStepIdx(nextIdx);
+      setHistory(prev => [...prev, selectedPreset.steps[nextIdx]]);
+    }
+  }, [currentStepIdx, selectedPreset.steps]);
+
   useEffect(() => {
     let timer;
     if (isPlaying && currentStepIdx < selectedPreset.steps.length - 1) {
@@ -137,21 +151,7 @@ export default function Simulator() {
       setIsPlaying(false);
     }
     return () => clearTimeout(timer);
-  }, [isPlaying, currentStepIdx]);
-
-  const resetSimulator = () => {
-    setCurrentStepIdx(-1);
-    setIsPlaying(false);
-    setHistory([]);
-  };
-
-  const nextStep = () => {
-    if (currentStepIdx < selectedPreset.steps.length - 1) {
-      const nextIdx = currentStepIdx + 1;
-      setCurrentStepIdx(nextIdx);
-      setHistory(prev => [...prev, selectedPreset.steps[nextIdx]]);
-    }
-  };
+  }, [isPlaying, currentStepIdx, nextStep, selectedPreset.steps.length]);
 
   const handleCustomTaskSubmit = (e) => {
     e.preventDefault();
@@ -225,20 +225,6 @@ export default function Simulator() {
     }
   };
 
-  const getStepBorderClass = (type) => {
-    switch (type) {
-      case 'thought':
-        return 'border-cyan';
-      case 'action':
-        return 'border-purple';
-      case 'observation':
-        return 'border-warning';
-      case 'answer':
-        return 'border-success';
-      default:
-        return '';
-    }
-  };
 
   return (
     <div className="fade-in">

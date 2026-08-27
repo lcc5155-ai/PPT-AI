@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Terminal, Copy, Check, Info } from 'lucide-react';
+import { Terminal, Copy, Info } from 'lucide-react';
 
 const PYTHON_CODE = `import re
 
